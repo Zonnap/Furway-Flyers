@@ -11,10 +11,10 @@ config_version=5
 [application]
 
 config/name="AnimalDiscGolf"
+run/main_scene="uid://02lv0rv1uhiq"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[rendering]
+[editor_plugins]
 
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+enabled=PackedStringArray("res://addons/terrain_3d/plugin.cfg")
