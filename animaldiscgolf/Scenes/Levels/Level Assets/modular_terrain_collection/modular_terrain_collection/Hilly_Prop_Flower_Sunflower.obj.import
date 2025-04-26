@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c85jdhj4omn3x"
+path="res://.godot/imported/Hilly_Prop_Flower_Sunflower.obj-04e4dae9cb3c02d8214396bbaa7cc85e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Hilly_Prop_Flower_Sunflower.obj-04e4dae9cb3c02d8214396bbaa7cc85e.mesh"]
+
+source_file="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Flower_Sunflower.obj"
+dest_files=["res://.godot/imported/Hilly_Prop_Flower_Sunflower.obj-04e4dae9cb3c02d8214396bbaa7cc85e.mesh", "res://.godot/imported/Hilly_Prop_Flower_Sunflower.obj-04e4dae9cb3c02d8214396bbaa7cc85e.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

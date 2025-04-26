@@ -1,0 +1,1704 @@
+[gd_scene load_steps=306 format=3 uid="uid://bpmh7aml18omi"]
+
+[ext_resource type="ArrayMesh" uid="uid://1iawywcdcl3u" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Coconut_1.obj" id="1_bffus"]
+[ext_resource type="ArrayMesh" uid="uid://dxm4oab1ggksa" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Docks_Corner.obj" id="2_n07sd"]
+[ext_resource type="ArrayMesh" uid="uid://c5puck0l662u8" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Docks_Corner_Supports.obj" id="3_n5ioe"]
+[ext_resource type="ArrayMesh" uid="uid://ckbhjymoud7su" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Docks_Steps.obj" id="4_wmpjh"]
+[ext_resource type="ArrayMesh" uid="uid://k05ioechwyc" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Docks_Straight.obj" id="5_wnuuc"]
+[ext_resource type="ArrayMesh" uid="uid://dxi0p3e3uxnne" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Docks_Straight_Supports.obj" id="6_1766f"]
+[ext_resource type="ArrayMesh" uid="uid://da56uew8udkdw" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Shell_1.obj" id="7_bg2xg"]
+[ext_resource type="ArrayMesh" uid="uid://cpy6vhmohnry1" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Shell_2.obj" id="8_y23yg"]
+[ext_resource type="ArrayMesh" uid="uid://cneerqlj3x3r1" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Starfish_1.obj" id="9_50x1k"]
+[ext_resource type="ArrayMesh" uid="uid://bjgdcb7xtbhy7" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Starfish_2.obj" id="10_de7cy"]
+[ext_resource type="ArrayMesh" uid="uid://6u7547pwtbsk" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Treasure_Chest.obj" id="11_m0ll5"]
+[ext_resource type="ArrayMesh" uid="uid://bj1vxs033dhgf" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Tree_Palm_1.obj" id="12_qpbth"]
+[ext_resource type="ArrayMesh" uid="uid://bw5t301q3guk0" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Tree_Palm_2.obj" id="13_txcgq"]
+[ext_resource type="ArrayMesh" uid="uid://c27lc2qp720fn" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Tree_Palm_3.obj" id="14_q7lhs"]
+[ext_resource type="ArrayMesh" uid="uid://l54hpv8uabuo" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Corner_Inner_2x2.obj" id="15_vbx8w"]
+[ext_resource type="ArrayMesh" uid="uid://baa42ipntv3b5" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Corner_Inner_4x4.obj" id="16_sdc80"]
+[ext_resource type="ArrayMesh" uid="uid://dalo1yhb2voo0" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Corner_Outer_2x2.obj" id="17_6xkkg"]
+[ext_resource type="ArrayMesh" uid="uid://4y82x7u5ieab" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Corner_Outer_4x4.obj" id="18_x01eb"]
+[ext_resource type="ArrayMesh" uid="uid://duxvbyhkpvefs" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Floor.obj" id="19_g12ix"]
+[ext_resource type="ArrayMesh" uid="uid://cxqxunuroj0bj" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Floor_Raised.obj" id="20_b6c5o"]
+[ext_resource type="ArrayMesh" uid="uid://co5itbv6lqtxm" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Side_Gentle.obj" id="21_lb0dq"]
+[ext_resource type="ArrayMesh" uid="uid://vwwvdojgv12d" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Side_Overlap_Side.obj" id="22_ebrex"]
+[ext_resource type="ArrayMesh" uid="uid://dr0syop1i7x0k" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Side_Sharp.obj" id="23_d1jbf"]
+[ext_resource type="ArrayMesh" uid="uid://8ngo1di4wxlg" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Side_Shift_Gentle.obj" id="24_udmyq"]
+[ext_resource type="ArrayMesh" uid="uid://cr8026p2a3du5" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Side_Shift_Sharp.obj" id="25_nlw0y"]
+[ext_resource type="ArrayMesh" uid="uid://clali2v8dlme1" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Transition_Gentle_Sharp_Centered.obj" id="26_4abkw"]
+[ext_resource type="ArrayMesh" uid="uid://c0wcjoqlds4qe" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Transition_Gentle_Sharp_Flush_Base.obj" id="27_d3ny0"]
+[ext_resource type="ArrayMesh" uid="uid://dcnrdv8kci51f" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Terrain_Sand_Transition_Gentle_Sharp_Flush_Crest.obj" id="28_y6ftv"]
+[ext_resource type="ArrayMesh" uid="uid://ci0qunpvjj7nw" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Cliff_Terrain_Entrance_Flat_Base.obj" id="29_jmg6y"]
+[ext_resource type="ArrayMesh" uid="uid://cuu1h6s26j7n0" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Cliff_Terrain_Entrance_Round_Base.obj" id="30_ioxsf"]
+[ext_resource type="ArrayMesh" uid="uid://dn7xw5y331hcm" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Cliff_Terrain_Entrance_Round_Top.obj" id="31_xmyei"]
+[ext_resource type="ArrayMesh" uid="uid://qwislg5l3wfl" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Cliff_Terrain_Entrance_Round_Top_Center.obj" id="32_1orn3"]
+[ext_resource type="ArrayMesh" uid="uid://dnu1ddrguk1lh" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Entrance_1.obj" id="33_6sqfd"]
+[ext_resource type="ArrayMesh" uid="uid://cdefdhgs84mlt" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Hanging_Cables_1.obj" id="34_ks4b6"]
+[ext_resource type="ArrayMesh" uid="uid://cn16xjvaq8d0u" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Hanging_Cables_2.obj" id="35_umfiy"]
+[ext_resource type="ArrayMesh" uid="uid://cusxppm5optpy" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Hanging_Cables_3.obj" id="36_vn5xp"]
+[ext_resource type="ArrayMesh" uid="uid://dcw55ppxe1n1a" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Hanging_Lamp_1.obj" id="37_nqflt"]
+[ext_resource type="ArrayMesh" uid="uid://cpe5cx4blll64" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Minecart_1.obj" id="38_yp5rc"]
+[ext_resource type="ArrayMesh" uid="uid://baovoxrimtxvr" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Pick_Large.obj" id="39_unlap"]
+[ext_resource type="ArrayMesh" uid="uid://lms7q3wcd4vo" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Pick_Small.obj" id="40_u1ncq"]
+[ext_resource type="ArrayMesh" uid="uid://dgxbmibfgv28e" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Bumpstop.obj" id="41_jbvnh"]
+[ext_resource type="ArrayMesh" uid="uid://m70xurqiltry" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Curve_Large.obj" id="42_nham2"]
+[ext_resource type="ArrayMesh" uid="uid://pyv8xa103dg" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Curve_Small.obj" id="43_kvsto"]
+[ext_resource type="ArrayMesh" uid="uid://djcnxxdw5eh6q" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Hill_Gentle.obj" id="44_tummh"]
+[ext_resource type="ArrayMesh" uid="uid://b0ea21bj8bm3g" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Hill_Sharp.obj" id="45_dmcdw"]
+[ext_resource type="ArrayMesh" uid="uid://b3qs8aj28hjat" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Intersection.obj" id="46_nu21i"]
+[ext_resource type="ArrayMesh" uid="uid://cvndf1nq481um" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Straight_1.obj" id="47_d0c43"]
+[ext_resource type="ArrayMesh" uid="uid://dbs8hhs35crv8" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Straight_2.obj" id="48_cgaep"]
+[ext_resource type="ArrayMesh" uid="uid://ddvkv6kkwa6ij" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Straight_3.obj" id="49_s57sc"]
+[ext_resource type="ArrayMesh" uid="uid://bpa1c5qcxux82" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Straight_4.obj" id="50_bq7sc"]
+[ext_resource type="ArrayMesh" uid="uid://b4d5p55xunnou" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Railway_Switch.obj" id="51_aba5i"]
+[ext_resource type="ArrayMesh" uid="uid://coqbt5vlr1tm0" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Stalagmite_Connected_Base.obj" id="52_cmim4"]
+[ext_resource type="ArrayMesh" uid="uid://bwkvh06lxjbyd" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Stalagmite_Connected_Mid.obj" id="53_lj2db"]
+[ext_resource type="ArrayMesh" uid="uid://b7gi133kevkat" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Stalagmite_Connected_Top.obj" id="54_nv6lf"]
+[ext_resource type="ArrayMesh" uid="uid://clht30ytnh3or" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Stalagmite_Normal.obj" id="55_fpfwo"]
+[ext_resource type="ArrayMesh" uid="uid://bec7ljryk4h2i" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Stalagmite_Tiny.obj" id="56_l3b6k"]
+[ext_resource type="ArrayMesh" uid="uid://lu8663d3fav" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Ceiling_Beam_1.obj" id="57_47hcj"]
+[ext_resource type="ArrayMesh" uid="uid://co4b65nefo30i" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Ceiling_Beam_2.obj" id="58_0paoe"]
+[ext_resource type="ArrayMesh" uid="uid://d14noeau181g" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Ceiling_Beam_3.obj" id="59_25fxc"]
+[ext_resource type="ArrayMesh" uid="uid://dtr3hudwcvwuk" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Ceiling_Beam_4.obj" id="60_eluh8"]
+[ext_resource type="ArrayMesh" uid="uid://cf5t4thiapefk" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Ceiling_Boards_1.obj" id="61_2pgj4"]
+[ext_resource type="ArrayMesh" uid="uid://b7blg43a7t2n3" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Ceiling_Boards_2.obj" id="62_3avqr"]
+[ext_resource type="ArrayMesh" uid="uid://bux25auyg3vsj" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Ceiling_Boards_3.obj" id="63_fpqnb"]
+[ext_resource type="ArrayMesh" uid="uid://bnu4vnoqy8626" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Ceiling_Boards_4.obj" id="64_l3q1r"]
+[ext_resource type="ArrayMesh" uid="uid://ofjcqce0lb8" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Corner_Brace_1.obj" id="65_sas85"]
+[ext_resource type="ArrayMesh" uid="uid://b0n6uutb4bf7c" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Corner_Brace_2.obj" id="66_1qvqk"]
+[ext_resource type="ArrayMesh" uid="uid://bf7sgft7gsaqf" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Wall_Boards_1.obj" id="67_ofs67"]
+[ext_resource type="ArrayMesh" uid="uid://bull3egericqg" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Wall_Boards_2.obj" id="68_rb2nr"]
+[ext_resource type="ArrayMesh" uid="uid://bytrrgkhnikd7" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Wall_Boards_3.obj" id="69_3byv3"]
+[ext_resource type="ArrayMesh" uid="uid://dmkvuqu5ylbmk" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Wall_Boards_4.obj" id="70_lctgx"]
+[ext_resource type="ArrayMesh" uid="uid://eaim6v1w3h37" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Wall_Pillar_1.obj" id="71_35b7w"]
+[ext_resource type="ArrayMesh" uid="uid://rbxu46gk06co" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Wall_Pillar_2.obj" id="72_cmaiw"]
+[ext_resource type="ArrayMesh" uid="uid://cbrxngmljx87m" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Wall_Pillar_3.obj" id="73_13e72"]
+[ext_resource type="ArrayMesh" uid="uid://dypnnpp7aakoc" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Prop_Support_Wall_Pillar_4.obj" id="74_p55mi"]
+[ext_resource type="ArrayMesh" uid="uid://bpki6wxfn3tx6" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Inner_1x1_Base.obj" id="75_llx56"]
+[ext_resource type="ArrayMesh" uid="uid://clkwybsraoflh" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Inner_1x1_Mid.obj" id="76_6dwws"]
+[ext_resource type="ArrayMesh" uid="uid://b0s2rg7x5pj3q" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Inner_1x1_Top.obj" id="77_n6lod"]
+[ext_resource type="ArrayMesh" uid="uid://8qm8m566ulbf" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Inner_2x2_Base.obj" id="78_xfnec"]
+[ext_resource type="ArrayMesh" uid="uid://m0mrkpd87xcv" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Inner_2x2_Mid.obj" id="79_g23mq"]
+[ext_resource type="ArrayMesh" uid="uid://cp7ppb5p5wrf2" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Inner_2x2_Top.obj" id="80_vahvm"]
+[ext_resource type="ArrayMesh" uid="uid://gmcqtnyvxsp" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Inner_3x3_Base.obj" id="81_mfkes"]
+[ext_resource type="ArrayMesh" uid="uid://cl4pfugpb4n1o" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Inner_3x3_Mid.obj" id="82_j2shp"]
+[ext_resource type="ArrayMesh" uid="uid://b6yrugh6r6yb5" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Inner_3x3_Top.obj" id="83_s1vfd"]
+[ext_resource type="ArrayMesh" uid="uid://c64r7lbm3yfom" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Outer_1x1_Base.obj" id="84_u0iho"]
+[ext_resource type="ArrayMesh" uid="uid://c4ah55t06efur" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Outer_1x1_Top.obj" id="85_041hj"]
+[ext_resource type="ArrayMesh" uid="uid://dv50tfxy700f0" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Outer_2x2_Base.obj" id="86_aolnh"]
+[ext_resource type="ArrayMesh" uid="uid://cgrmrujl0ltob" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Outer_2x2_Mid.obj" id="87_1pbax"]
+[ext_resource type="ArrayMesh" uid="uid://dua06685k3wbi" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Outer_2x2_Top.obj" id="88_0p2hg"]
+[ext_resource type="ArrayMesh" uid="uid://dcuaaj43uurqr" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Outer_3x3_Mid.obj" id="89_nisos"]
+[ext_resource type="ArrayMesh" uid="uid://na2jxeqsgkwj" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Corner_Outer_3x3_Top.obj" id="90_i1d8i"]
+[ext_resource type="ArrayMesh" uid="uid://mtllom3v8euj" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Flat_Round_Inner.obj" id="91_5cj2w"]
+[ext_resource type="ArrayMesh" uid="uid://de8cxipeasnab" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Flat_Round_Mid.obj" id="92_5pt5h"]
+[ext_resource type="ArrayMesh" uid="uid://c5mhvpdhoijr2" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Flat_Round_Outer.obj" id="93_tcuxk"]
+[ext_resource type="ArrayMesh" uid="uid://b6t0x12oih4ua" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Floor_Normal.obj" id="94_se2ge"]
+[ext_resource type="ArrayMesh" uid="uid://dwss0f5ld5mj5" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Floor_Raised.obj" id="95_shcdd"]
+[ext_resource type="ArrayMesh" uid="uid://7lga366xng8d" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Corner_Inner_2x2.obj" id="96_vtey1"]
+[ext_resource type="ArrayMesh" uid="uid://cm3cpxuitua01" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Corner_Inner_4x4.obj" id="97_j7j2s"]
+[ext_resource type="ArrayMesh" uid="uid://l8u1ce4tqf8a" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Corner_Outer_2x2.obj" id="98_gnvrx"]
+[ext_resource type="ArrayMesh" uid="uid://b2nf0ruyykhoo" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Corner_Outer_4x4.obj" id="99_bh5jd"]
+[ext_resource type="ArrayMesh" uid="uid://bp3i3yvagc2uc" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Side_Gentle.obj" id="100_myst3"]
+[ext_resource type="ArrayMesh" uid="uid://drqcvuuxd06j1" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Side_Overlap_Side.obj" id="101_opsbd"]
+[ext_resource type="ArrayMesh" uid="uid://bc5lgj2phywcx" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Side_Sharp.obj" id="102_akfdh"]
+[ext_resource type="ArrayMesh" uid="uid://qwxaxxyo7wle" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Side_Shift_Gentle.obj" id="103_4e51u"]
+[ext_resource type="ArrayMesh" uid="uid://bngvrx1yexn25" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Side_Shift_Sharp.obj" id="104_evd2d"]
+[ext_resource type="ArrayMesh" uid="uid://boyhrvt8fc6g7" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Transition_Gentle_Sharp_Centered.obj" id="105_oidvj"]
+[ext_resource type="ArrayMesh" uid="uid://cmmqu5mvh53y0" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Transition_Gentle_Sharp_Flush_Base.obj" id="106_7ficx"]
+[ext_resource type="ArrayMesh" uid="uid://liopc7nu7s2g" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Transition_Gentle_Sharp_Flush_Crest.obj" id="107_1jrcn"]
+[ext_resource type="ArrayMesh" uid="uid://b7sm3uechb1wd" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Side_Base.obj" id="108_r6d5o"]
+[ext_resource type="ArrayMesh" uid="uid://c6711vx3wkaip" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Side_Incline_Base.obj" id="109_5sr4i"]
+[ext_resource type="ArrayMesh" uid="uid://ckei38gbg355e" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Side_Incline_Top.obj" id="110_fgix5"]
+[ext_resource type="ArrayMesh" uid="uid://cta8aq0iwub4s" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Side_Mid.obj" id="111_fwp44"]
+[ext_resource type="ArrayMesh" uid="uid://bdryrwva0ujxt" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Side_Top.obj" id="112_t0be5"]
+[ext_resource type="ArrayMesh" uid="uid://dgpx3br1cqtln" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Prop_Bridge_Rope_End.obj" id="113_uyt06"]
+[ext_resource type="ArrayMesh" uid="uid://b4eobxuqimh5o" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Prop_Bridge_Rope_Middle.obj" id="114_hwji6"]
+[ext_resource type="ArrayMesh" uid="uid://4y4kyrcwhluo" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Prop_Bridge_Rope_Middle_Support.obj" id="115_8srah"]
+[ext_resource type="ArrayMesh" uid="uid://dvtp8t7o7pgtq" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Prop_Rock_1.obj" id="116_i41oe"]
+[ext_resource type="ArrayMesh" uid="uid://bbd1mitym1mp6" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Prop_Rock_2.obj" id="117_ev8ia"]
+[ext_resource type="ArrayMesh" uid="uid://cu33vi6k601xx" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_1x1_Base.obj" id="118_uk464"]
+[ext_resource type="ArrayMesh" uid="uid://xdj4eryo74li" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_1x1_Mid.obj" id="119_5iwvg"]
+[ext_resource type="ArrayMesh" uid="uid://bub4iut26350u" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_1x1_Top.obj" id="120_0jaxa"]
+[ext_resource type="ArrayMesh" uid="uid://ih7wadvtgfhl" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_2x2_Base.obj" id="121_krlrr"]
+[ext_resource type="ArrayMesh" uid="uid://br6wnp0wpcqlv" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_2x2_Mid.obj" id="122_8xtbh"]
+[ext_resource type="ArrayMesh" uid="uid://bfe1phgr4yhns" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_2x2_Top.obj" id="123_2pnt5"]
+[ext_resource type="ArrayMesh" uid="uid://dhpx5mkdl7ouk" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_3x3_Base.obj" id="124_xxr1u"]
+[ext_resource type="ArrayMesh" uid="uid://b8bsfi5muvbgr" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_3x3_Mid.obj" id="125_b3krv"]
+[ext_resource type="ArrayMesh" uid="uid://cvmltkwhxu5vl" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Inner_3x3_Top.obj" id="126_m2v7w"]
+[ext_resource type="ArrayMesh" uid="uid://w3upyw5dbx0u" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Outer_1x1_Base.obj" id="127_ciipa"]
+[ext_resource type="ArrayMesh" uid="uid://cimmk56vt76wn" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Outer_1x1_Top.obj" id="128_eoaqj"]
+[ext_resource type="ArrayMesh" uid="uid://b4iaetgp7cqc0" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Outer_2x2_Base.obj" id="129_ec67f"]
+[ext_resource type="ArrayMesh" uid="uid://cl1qex7sr213i" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Outer_2x2_Mid.obj" id="130_viqwp"]
+[ext_resource type="ArrayMesh" uid="uid://cwg46r6hw1mkj" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Outer_2x2_Top.obj" id="131_wegtb"]
+[ext_resource type="ArrayMesh" uid="uid://daasij6alow3v" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Outer_3x3_Base.obj" id="132_r2daa"]
+[ext_resource type="ArrayMesh" uid="uid://b42gylqxl555h" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Outer_3x3_Mid.obj" id="133_lbh5q"]
+[ext_resource type="ArrayMesh" uid="uid://c5v5tk4re2hkx" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Corner_Outer_3x3_Top.obj" id="134_n4c7f"]
+[ext_resource type="ArrayMesh" uid="uid://cx2mcm05j3qpi" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Hill_Base_Top_Joined_Gentle.obj" id="135_hvtf8"]
+[ext_resource type="ArrayMesh" uid="uid://bvdpytreeh3p4" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Hill_Base_Top_Joined_Sharp.obj" id="136_og4na"]
+[ext_resource type="ArrayMesh" uid="uid://b10f5sew4s6bj" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Hill_Gentle_Base.obj" id="137_2gslo"]
+[ext_resource type="ArrayMesh" uid="uid://bmjklg7e421ib" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Hill_Gentle_Top.obj" id="138_3su5f"]
+[ext_resource type="ArrayMesh" uid="uid://je6411fps41p" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Hill_Sharp_Base.obj" id="139_1gw2b"]
+[ext_resource type="ArrayMesh" uid="uid://b8oaffh48ahol" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Hill_Sharp_Top.obj" id="140_mxmgn"]
+[ext_resource type="ArrayMesh" uid="uid://bd1ycjhun7lsg" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Path_Steps_Center.obj" id="141_rletm"]
+[ext_resource type="ArrayMesh" uid="uid://c1ps63yv3m82" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Path_Steps_Center_Top.obj" id="142_41qur"]
+[ext_resource type="ArrayMesh" uid="uid://dps0sr12vubjq" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Path_Steps_Edge.obj" id="143_skokl"]
+[ext_resource type="ArrayMesh" uid="uid://dkqautlgndaaq" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Path_Steps_Grass_Edge.obj" id="144_7rbf5"]
+[ext_resource type="ArrayMesh" uid="uid://n4372q2nmkdm" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Path_Steps_Grass_Edge_Top.obj" id="145_ljc1p"]
+[ext_resource type="ArrayMesh" uid="uid://c2d2kuksobuv8" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Side_Base.obj" id="146_wirdb"]
+[ext_resource type="ArrayMesh" uid="uid://dbnau66443thv" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Side_Falloff_Center.obj" id="147_pdcwi"]
+[ext_resource type="ArrayMesh" uid="uid://b0xg4es4yn2mr" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Side_Falloff_Edge.obj" id="148_plptv"]
+[ext_resource type="ArrayMesh" uid="uid://cvu87dk5xundo" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Side_Mid.obj" id="149_d7ghg"]
+[ext_resource type="ArrayMesh" uid="uid://huc1msxqyu2n" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Side_Top.obj" id="150_2iuoe"]
+[ext_resource type="ArrayMesh" uid="uid://boypqvghcv7rv" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Waterfall_Base_Flat.obj" id="151_k8b3p"]
+[ext_resource type="ArrayMesh" uid="uid://dt0flhq5j50gf" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Waterfall_Base_Hill.obj" id="152_ti8ht"]
+[ext_resource type="ArrayMesh" uid="uid://rdh0sjflwgay" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Waterfall_Mid.obj" id="153_6o8hr"]
+[ext_resource type="ArrayMesh" uid="uid://ck2awkusuvxvc" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Waterfall_Top.obj" id="154_85133"]
+[ext_resource type="ArrayMesh" uid="uid://bdb5yqtlx0i6e" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Waterfall_Water_Mid.obj" id="155_336x2"]
+[ext_resource type="ArrayMesh" uid="uid://7bog6reh74jh" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Waterfall_Water_Mid_Edge.obj" id="156_k8dix"]
+[ext_resource type="ArrayMesh" uid="uid://10rhsbiijser" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Waterfall_Water_Top.obj" id="157_k4hv5"]
+[ext_resource type="ArrayMesh" uid="uid://bparl38ho8n25" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Waterfall_Water_Top_Edge.obj" id="158_7k3bj"]
+[ext_resource type="ArrayMesh" uid="uid://df6i7hp28rcvt" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_1x1_Base.obj" id="159_7es6q"]
+[ext_resource type="ArrayMesh" uid="uid://uob7kiaqvsp4" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_1x1_Mid.obj" id="160_swg5n"]
+[ext_resource type="ArrayMesh" uid="uid://mqskwk7lw5xo" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_1x1_Top.obj" id="161_jpk7a"]
+[ext_resource type="ArrayMesh" uid="uid://bvg525aim7rst" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_2x2_Base.obj" id="162_42qm7"]
+[ext_resource type="ArrayMesh" uid="uid://bmp5i6lqrkdr6" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_2x2_Mid.obj" id="163_73r6v"]
+[ext_resource type="ArrayMesh" uid="uid://csxlae1xkun3b" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_2x2_Top.obj" id="164_ui6fl"]
+[ext_resource type="ArrayMesh" uid="uid://deviblhxi71uu" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_3x3_Base.obj" id="165_fmls6"]
+[ext_resource type="ArrayMesh" uid="uid://vaibwjqsv188" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_3x3_Mid.obj" id="166_imdon"]
+[ext_resource type="ArrayMesh" uid="uid://b2ky27my68d78" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Inner_3x3_Top.obj" id="167_iv1oq"]
+[ext_resource type="ArrayMesh" uid="uid://bj8m5bykq13q4" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_1x1_Base.obj" id="168_bi1c6"]
+[ext_resource type="ArrayMesh" uid="uid://bj0l1y21n1td7" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_1x1_Top.obj" id="169_d7u68"]
+[ext_resource type="ArrayMesh" uid="uid://5rthe531wiy3" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_2x2_Base.obj" id="170_d4k3l"]
+[ext_resource type="ArrayMesh" uid="uid://dyv6e5hv44ofm" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_2x2_Mid.obj" id="171_3n32g"]
+[ext_resource type="ArrayMesh" uid="uid://dcyktfi6pj366" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_2x2_Top.obj" id="172_0tmct"]
+[ext_resource type="ArrayMesh" uid="uid://dgp5ekfh53n3i" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_3x3_Base.obj" id="173_fah0s"]
+[ext_resource type="ArrayMesh" uid="uid://dpkduxfkbjeei" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_3x3_Mid.obj" id="174_o0cvi"]
+[ext_resource type="ArrayMesh" uid="uid://c3v6uj2as53pn" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Corner_Outer_3x3_Top.obj" id="175_qjlat"]
+[ext_resource type="ArrayMesh" uid="uid://dokd5nvmhy6m0" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Hill_Base.obj" id="176_2qb7y"]
+[ext_resource type="ArrayMesh" uid="uid://drdwenria6c5r" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Hill_Crest_Top.obj" id="177_1l2jq"]
+[ext_resource type="ArrayMesh" uid="uid://d0a400i48by2y" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Hill_Top.obj" id="178_2t2vu"]
+[ext_resource type="ArrayMesh" uid="uid://3i0w7dsylakx" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Side_Base.obj" id="179_mkqlq"]
+[ext_resource type="ArrayMesh" uid="uid://bm3lu0m2lxt1d" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Side_Falloff_Center.obj" id="180_0dpqs"]
+[ext_resource type="ArrayMesh" uid="uid://bmpycjln6tula" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Side_Falloff_Edge.obj" id="181_rik8r"]
+[ext_resource type="ArrayMesh" uid="uid://dhuptv5xqeqlx" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Side_Mid.obj" id="182_wjo2j"]
+[ext_resource type="ArrayMesh" uid="uid://fpssymqr3sso" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Escarpment_Terrain_Side_Top.obj" id="183_o1vrx"]
+[ext_resource type="ArrayMesh" uid="uid://dhwbbekek0jwl" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Branch_1.obj" id="184_ahdf8"]
+[ext_resource type="ArrayMesh" uid="uid://dr3l5678dsdct" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Branch_2.obj" id="185_8p5hf"]
+[ext_resource type="ArrayMesh" uid="uid://cemh1ns7tcfp8" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Branch_3.obj" id="186_rr3j4"]
+[ext_resource type="ArrayMesh" uid="uid://bmc5dmt3whve7" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bridge_Log_End.obj" id="187_spud6"]
+[ext_resource type="ArrayMesh" uid="uid://bnrlncr43yxd8" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bridge_Log_End_Edge.obj" id="188_ftgr2"]
+[ext_resource type="ArrayMesh" uid="uid://byjl2u1cmqbel" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bridge_Log_Middle.obj" id="189_sgkcb"]
+[ext_resource type="ArrayMesh" uid="uid://by3663gch7x70" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bridge_Log_Middle_Edge.obj" id="190_e420f"]
+[ext_resource type="ArrayMesh" uid="uid://cy6ejvob184tq" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bridge_Log_Post_Support.obj" id="191_g44dy"]
+[ext_resource type="ArrayMesh" uid="uid://b57130ex8h1ur" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bridge_Log_Post_Top.obj" id="192_f3222"]
+[ext_resource type="ArrayMesh" uid="uid://b2vat552h1a14" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bush_1.obj" id="193_011cj"]
+[ext_resource type="ArrayMesh" uid="uid://dqw6q00ej734i" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bush_2.obj" id="194_nel5m"]
+[ext_resource type="ArrayMesh" uid="uid://cygqg8soq6wn5" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bush_3.obj" id="195_sd8jq"]
+[ext_resource type="ArrayMesh" uid="uid://wq41ukc4rib" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Bush_4.obj" id="196_qsxg4"]
+[ext_resource type="ArrayMesh" uid="uid://lnllpy3asgqs" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Camp_Campfire.obj" id="197_dyk5x"]
+[ext_resource type="ArrayMesh" uid="uid://daam3d0bl4326" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Camp_Lean_To.obj" id="198_xt31s"]
+[ext_resource type="ArrayMesh" uid="uid://dpejmihbjpemf" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Camp_Sitting_Log.obj" id="199_d7l1k"]
+[ext_resource type="ArrayMesh" uid="uid://cpaxy72p3epss" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Camp_Wood_Pile.obj" id="200_nvgvt"]
+[ext_resource type="ArrayMesh" uid="uid://boqefltuw7ufs" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Cattail_1.obj" id="201_n5nw7"]
+[ext_resource type="ArrayMesh" uid="uid://cnp83726tuxts" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Cattail_2.obj" id="202_stkjq"]
+[ext_resource type="ArrayMesh" uid="uid://dxwj68jqunuvo" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Boards_1.obj" id="203_ik6gl"]
+[ext_resource type="ArrayMesh" uid="uid://dpepc457nlic3" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Boards_2.obj" id="204_a6hco"]
+[ext_resource type="ArrayMesh" uid="uid://cpr1agqhdqx32" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Boards_3.obj" id="205_5e5le"]
+[ext_resource type="ArrayMesh" uid="uid://b7t2f47u6lugb" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Boards_4.obj" id="206_ojx7w"]
+[ext_resource type="ArrayMesh" uid="uid://dnbegn76a8pdd" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Curve_1x1.obj" id="207_73gr2"]
+[ext_resource type="ArrayMesh" uid="uid://bqgtbe6pjrdgw" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Curve_2x2.obj" id="208_keayu"]
+[ext_resource type="ArrayMesh" uid="uid://2gqwtdw35sn1" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Curve_3x3.obj" id="209_ospjb"]
+[ext_resource type="ArrayMesh" uid="uid://bec34jp35kjy7" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Gate_1.obj" id="210_2grtd"]
+[ext_resource type="ArrayMesh" uid="uid://dmo8x2n8v8no8" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Gate_2.obj" id="211_osnju"]
+[ext_resource type="ArrayMesh" uid="uid://ct2ti6yydmguj" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Hill_Gentle.obj" id="212_0e78b"]
+[ext_resource type="ArrayMesh" uid="uid://dbpgifu7jyxi2" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Hill_Sharp.obj" id="213_wx8yd"]
+[ext_resource type="ArrayMesh" uid="uid://csqnrx1il6t6j" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Post_1.obj" id="214_66wse"]
+[ext_resource type="ArrayMesh" uid="uid://dm263o8ihtttt" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Post_2.obj" id="215_kvbx1"]
+[ext_resource type="ArrayMesh" uid="uid://cywplfd033w6l" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Post_3.obj" id="216_71xby"]
+[ext_resource type="ArrayMesh" uid="uid://vpmepvqu3wee" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Fence_Post_4.obj" id="217_0rfrt"]
+[ext_resource type="ArrayMesh" uid="uid://bmutnumuk05j5" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Flower_Daisy.obj" id="218_hmmak"]
+[ext_resource type="ArrayMesh" uid="uid://defikv6u2mhyf" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Flower_Lily_Blue.obj" id="219_v6g7d"]
+[ext_resource type="ArrayMesh" uid="uid://pb80ijsai3ln" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Flower_Lily_Pink.obj" id="220_fspnp"]
+[ext_resource type="ArrayMesh" uid="uid://4kwdsm7xwkfj" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Flower_Rose.obj" id="221_58g2v"]
+[ext_resource type="ArrayMesh" uid="uid://c85jdhj4omn3x" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Flower_Sunflower.obj" id="222_6sfi0"]
+[ext_resource type="ArrayMesh" uid="uid://2dibvxpem7ko" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Flower_Tulip.obj" id="223_qyiy1"]
+[ext_resource type="ArrayMesh" uid="uid://plrhr48j3tga" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Grass_Clump_1.obj" id="224_6rijh"]
+[ext_resource type="ArrayMesh" uid="uid://d38npokd8jgit" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Grass_Clump_2.obj" id="225_s7eht"]
+[ext_resource type="ArrayMesh" uid="uid://bpf32vu0nu6vo" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Grass_Clump_3.obj" id="226_bi1j7"]
+[ext_resource type="ArrayMesh" uid="uid://bvx8y1c4b6w7h" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Grass_Clump_4.obj" id="227_22xmq"]
+[ext_resource type="ArrayMesh" uid="uid://dr5m4esuhro1f" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Hollow_Trunk.obj" id="228_n6ads"]
+[ext_resource type="ArrayMesh" uid="uid://nehkctmt1x7q" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Mushroom_1.obj" id="229_qt0tp"]
+[ext_resource type="ArrayMesh" uid="uid://dgkajnn5m1uil" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Mushroom_2.obj" id="230_mic8y"]
+[ext_resource type="ArrayMesh" uid="uid://dv4o8ywv2itpn" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Rock_1.obj" id="231_xphpg"]
+[ext_resource type="ArrayMesh" uid="uid://k7456ltxoatp" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Rock_2.obj" id="232_ccbq6"]
+[ext_resource type="ArrayMesh" uid="uid://cq3w4imi6nf4c" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Rock_3.obj" id="233_8aujx"]
+[ext_resource type="ArrayMesh" uid="uid://c4aowf443x2ch" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Rock_4.obj" id="234_p8j5y"]
+[ext_resource type="ArrayMesh" uid="uid://b63tispi0ig0e" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_1.obj" id="235_2plfn"]
+[ext_resource type="ArrayMesh" uid="uid://bunp1c7e36fvb" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_2.obj" id="236_j8p65"]
+[ext_resource type="ArrayMesh" uid="uid://v7o3n04we66g" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_3.obj" id="237_85nkg"]
+[ext_resource type="ArrayMesh" uid="uid://ujerdlnjkty7" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_4.obj" id="238_8lnnj"]
+[ext_resource type="ArrayMesh" uid="uid://dggfci6hjv2hf" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Ruins_Pillar_5.obj" id="239_ifr71"]
+[ext_resource type="ArrayMesh" uid="uid://du0c433tupqbm" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Stepping_Stones_1.obj" id="240_utyx2"]
+[ext_resource type="ArrayMesh" uid="uid://616dil56mdwv" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Stepping_Stones_2.obj" id="241_akmwf"]
+[ext_resource type="ArrayMesh" uid="uid://dd47okdubmf2" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Stepping_Stones_3.obj" id="242_0h18c"]
+[ext_resource type="ArrayMesh" uid="uid://steaay5bgiv5" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Stepping_Stones_4.obj" id="243_4si4e"]
+[ext_resource type="ArrayMesh" uid="uid://cecjxmcep7e22" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Stepping_Stones_5.obj" id="244_8ism8"]
+[ext_resource type="ArrayMesh" uid="uid://bfksgj510y2p5" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Stepping_Stones_6.obj" id="245_5crm6"]
+[ext_resource type="ArrayMesh" uid="uid://bvyrt2jseiryc" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Stepping_Stones_7.obj" id="246_mhl4n"]
+[ext_resource type="ArrayMesh" uid="uid://cqmyf0xif2f0a" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Stepping_Stones_8.obj" id="247_aixcl"]
+[ext_resource type="ArrayMesh" uid="uid://dtlqypkx528rk" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Stump.obj" id="248_ovj4o"]
+[ext_resource type="ArrayMesh" uid="uid://crkxeah2vrmpj" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Cedar_1.obj" id="249_svlgi"]
+[ext_resource type="ArrayMesh" uid="uid://dntgg5vpqdpn7" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Cedar_2.obj" id="250_ch0pm"]
+[ext_resource type="ArrayMesh" uid="uid://c8wlr1biaevob" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Oak_1.obj" id="251_unec7"]
+[ext_resource type="ArrayMesh" uid="uid://bk0jx7g2bywaq" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Oak_2.obj" id="252_j5t0l"]
+[ext_resource type="ArrayMesh" uid="uid://dqoxsrfksijiw" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Oak_3.obj" id="253_xp1yj"]
+[ext_resource type="ArrayMesh" uid="uid://buh6qpa7g3s4g" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Oak_4.obj" id="254_hbpvx"]
+[ext_resource type="ArrayMesh" uid="uid://1ojmhscmqkd0" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Pine_1.obj" id="255_1bnet"]
+[ext_resource type="ArrayMesh" uid="uid://bs3oojjhjsoxk" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Pine_2.obj" id="256_g1j7x"]
+[ext_resource type="ArrayMesh" uid="uid://bpdu6t04ciifx" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Prop_Tree_Pine_3.obj" id="257_aeylw"]
+[ext_resource type="ArrayMesh" uid="uid://8b2kbcgjjjmq" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Grass_Floor.obj" id="258_fvtci"]
+[ext_resource type="ArrayMesh" uid="uid://xxloqwo3wi75" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Corner_Inner_2x2.obj" id="259_snan4"]
+[ext_resource type="ArrayMesh" uid="uid://bqrj86fu4gvwi" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Corner_Inner_3x3.obj" id="260_u3f1e"]
+[ext_resource type="ArrayMesh" uid="uid://dm7v1n6py7upc" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Corner_Inner_4x4.obj" id="261_urw10"]
+[ext_resource type="ArrayMesh" uid="uid://dv3kfe28mdk2r" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Corner_Outer_2x2.obj" id="262_pmsiu"]
+[ext_resource type="ArrayMesh" uid="uid://cchtwfpx40anc" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Corner_Outer_3x3.obj" id="263_eqh61"]
+[ext_resource type="ArrayMesh" uid="uid://bux5ni5drt4f5" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Corner_Outer_4x4.obj" id="264_idq1u"]
+[ext_resource type="ArrayMesh" uid="uid://3tuy5jfi56f4" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Side_Gentle.obj" id="265_1fhpw"]
+[ext_resource type="ArrayMesh" uid="uid://biqmeiot2fkva" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Side_Overlap_Side.obj" id="266_un3ny"]
+[ext_resource type="ArrayMesh" uid="uid://uudjm3kwx31r" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Side_Sharp.obj" id="267_6oidw"]
+[ext_resource type="ArrayMesh" uid="uid://co51vaegbp5l7" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Side_Shift_Gentle.obj" id="268_avu3v"]
+[ext_resource type="ArrayMesh" uid="uid://bicrjbk03wrxx" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Side_Shift_Sharp.obj" id="269_4vxkj"]
+[ext_resource type="ArrayMesh" uid="uid://b8pw7nk0a07v8" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Centered.obj" id="270_ef3c7"]
+[ext_resource type="ArrayMesh" uid="uid://jbdtgmum3eav" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Flush_Base.obj" id="271_n8jab"]
+[ext_resource type="ArrayMesh" uid="uid://cp7k2yfuyjr5k" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Hill_Transition_Gentle_Sharp_Flush_Crest.obj" id="272_o2sbr"]
+[ext_resource type="ArrayMesh" uid="uid://7eina2jjpxej" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Center.obj" id="273_4rj31"]
+[ext_resource type="ArrayMesh" uid="uid://blt3n7vy5e8o7" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Corner_Inner_1x1.obj" id="274_f3vfp"]
+[ext_resource type="ArrayMesh" uid="uid://bqgux2hjri326" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Corner_Inner_2x2.obj" id="275_c0x0e"]
+[ext_resource type="ArrayMesh" uid="uid://v87fgyjffywo" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Corner_Inner_3x3.obj" id="276_g68y6"]
+[ext_resource type="ArrayMesh" uid="uid://cpspl47wrdbfj" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Corner_Outer_1x1.obj" id="277_g05du"]
+[ext_resource type="ArrayMesh" uid="uid://bp5ov16glxa7r" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Corner_Outer_2x2.obj" id="278_a47gs"]
+[ext_resource type="ArrayMesh" uid="uid://dm0u6kog60aff" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Corner_Outer_3x3.obj" id="279_x63vu"]
+[ext_resource type="ArrayMesh" uid="uid://dddqfmns0hchv" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Corner_Outer_4x4.obj" id="280_80cqq"]
+[ext_resource type="ArrayMesh" uid="uid://sa4fi7tfyemc" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Corner_Y_2x2.obj" id="281_ocb5q"]
+[ext_resource type="ArrayMesh" uid="uid://bul4e4bkao3oy" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Corner_Y_3x3.obj" id="282_uvvqr"]
+[ext_resource type="ArrayMesh" uid="uid://c0udbsvf78bmb" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Esse_2x3.obj" id="283_kusdl"]
+[ext_resource type="ArrayMesh" uid="uid://ekynp3uqgisd" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Hill_Gentle_Plain_Center.obj" id="284_4kocb"]
+[ext_resource type="ArrayMesh" uid="uid://b7cahfu1h2qge" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Hill_Gentle_Plain_Side.obj" id="285_dgwnf"]
+[ext_resource type="ArrayMesh" uid="uid://c5em3uwjde5c1" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Hill_Sharp_Plain_Center.obj" id="286_g8jgf"]
+[ext_resource type="ArrayMesh" uid="uid://d3016ac5d0swn" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Hill_Sharp_Plain_Side.obj" id="287_2l5xn"]
+[ext_resource type="ArrayMesh" uid="uid://gid6xrakcn8w" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Hill_Sharp_Steps_Center.obj" id="288_px0mh"]
+[ext_resource type="ArrayMesh" uid="uid://duvoa5765grb8" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Hill_Sharp_Steps_Side.obj" id="289_a58ro"]
+[ext_resource type="ArrayMesh" uid="uid://lpan5xfrlahc" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Path_Side.obj" id="290_yu0vj"]
+[ext_resource type="ArrayMesh" uid="uid://ca0rwo7e4ntm1" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Water_Curve.obj" id="291_6img7"]
+[ext_resource type="ArrayMesh" uid="uid://c338d8j073pbb" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Water_Flat.obj" id="292_xqbs7"]
+[ext_resource type="ArrayMesh" uid="uid://cx32c164e0rmx" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Hilly_Terrain_Water_Slope.obj" id="293_ouhfb"]
+[ext_resource type="ArrayMesh" uid="uid://ckwad6hv7queu" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Mountain_1.obj" id="294_lqtur"]
+[ext_resource type="ArrayMesh" uid="uid://bj2u4oobfgx0g" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Mountain_2.obj" id="295_afbwp"]
+[ext_resource type="ArrayMesh" uid="uid://bho3egwbm3tcs" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Mountain_3.obj" id="296_oq0yk"]
+[ext_resource type="ArrayMesh" uid="uid://dyn1506inga47" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Mountain_4.obj" id="297_pp0qi"]
+[ext_resource type="ArrayMesh" uid="uid://casysoldwclo7" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Shared_Prop_Boulder_1.obj" id="298_ve5sb"]
+[ext_resource type="ArrayMesh" uid="uid://bwagfwrrxe3xw" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Shared_Prop_Boulder_2.obj" id="299_qkhds"]
+[ext_resource type="ArrayMesh" uid="uid://uigi3rm01k7s" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Shared_Prop_Boulder_3.obj" id="300_lprje"]
+[ext_resource type="ArrayMesh" uid="uid://pgfad1mh3yde" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Shared_Prop_Boulder_4.obj" id="301_jqa8f"]
+[ext_resource type="ArrayMesh" uid="uid://bs3qxnxrb7luq" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Shared_Prop_Boulder_5.obj" id="302_mjb2t"]
+[ext_resource type="ArrayMesh" uid="uid://beo163pi5tbk8" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Shared_Prop_Boulder_6.obj" id="303_cg18r"]
+[ext_resource type="ArrayMesh" uid="uid://jc4h5pqadi52" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Shared_Terrain_Dirt_Gathered_Corner.obj" id="304_i017q"]
+[ext_resource type="ArrayMesh" uid="uid://b2c1cnsgpjgty" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Shared_Terrain_Dirt_Gathered_Straight.obj" id="305_lo88f"]
+
+[node name="TestRoom" type="Node3D"]
+
+[node name="Beach Asset Holder" type="Node" parent="."]
+
+[node name="BeachPropCoconut1" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.38958, 0, 6.66462)
+mesh = ExtResource("1_bffus")
+skeleton = NodePath("../..")
+
+[node name="BeachPropDocksCorner" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.03745, 0.343544, 6.12097)
+mesh = ExtResource("2_n07sd")
+skeleton = NodePath("../..")
+
+[node name="BeachPropDocksCornerSupports" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.01631, 0, 6.11333)
+mesh = ExtResource("3_n5ioe")
+
+[node name="BeachPropDocksSteps" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.08978, 0, 7.69961)
+mesh = ExtResource("4_wmpjh")
+skeleton = NodePath("../..")
+
+[node name="BeachPropDocksStraight" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.40546, 0, 8.15186)
+mesh = ExtResource("5_wnuuc")
+
+[node name="BeachPropDocksStraightSupports" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.05319, 4.76837e-07, 7.77753)
+mesh = ExtResource("6_1766f")
+
+[node name="BeachPropShell1" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.72435, 0, 6.78037)
+mesh = ExtResource("7_bg2xg")
+
+[node name="BeachPropShell2" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.7642, 4.76837e-07, 6.31978)
+mesh = ExtResource("8_y23yg")
+
+[node name="BeachPropStarfish1" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.71984, 0, 5.56193)
+mesh = ExtResource("9_50x1k")
+
+[node name="BeachPropStarfish2" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.19149, 0, 6.14826)
+mesh = ExtResource("10_de7cy")
+
+[node name="BeachPropTreasureChest" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.50518, 0, 5.76567)
+mesh = ExtResource("11_m0ll5")
+
+[node name="BeachPropTreePalm1" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.76615, 0, 4.38976)
+mesh = ExtResource("12_qpbth")
+
+[node name="BeachPropTreePalm2" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.87423, 0, 5.38864)
+mesh = ExtResource("13_txcgq")
+
+[node name="BeachPropTreePalm3" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.04883, 0, 9.96649)
+mesh = ExtResource("14_q7lhs")
+
+[node name="BeachTerrainSandCornerInner2x2" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.13675, 0, 11.2665)
+mesh = ExtResource("15_vbx8w")
+
+[node name="BeachTerrainSandCornerInner4x4" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.78206, 0, 12.1624)
+mesh = ExtResource("16_sdc80")
+
+[node name="BeachTerrainSandCornerOuter2x2" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.23167, 0, 15.6533)
+mesh = ExtResource("17_6xkkg")
+
+[node name="BeachTerrainSandCornerOuter4x4" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.78716, 0, 20.3672)
+mesh = ExtResource("18_x01eb")
+
+[node name="BeachTerrainSandFloor" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.51066, 4.76837e-07, 16.5253)
+mesh = ExtResource("19_g12ix")
+
+[node name="BeachTerrainSandFloorRaised" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.68336, 0, 18.258)
+mesh = ExtResource("20_b6c5o")
+
+[node name="BeachTerrainSandSideGentle" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.48896, 0, 16.5453)
+mesh = ExtResource("21_lb0dq")
+
+[node name="BeachTerrainSandSideOverlapSide" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.63349, 0, 23.7658)
+mesh = ExtResource("22_ebrex")
+
+[node name="BeachTerrainSandSideSharp" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.46741, 0, 16.1636)
+mesh = ExtResource("23_d1jbf")
+
+[node name="BeachTerrainSandSideShiftGentle" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.4093, 0, 18.0097)
+mesh = ExtResource("24_udmyq")
+
+[node name="BeachTerrainSandSideShiftSharp" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.6043, 0, 26.927)
+mesh = ExtResource("25_nlw0y")
+
+[node name="BeachTerrainSandTransitionGentleSharpCentered" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.02608, -4.76837e-07, 4.12418)
+mesh = ExtResource("26_4abkw")
+
+[node name="BeachTerrainSandTransitionGentleSharpFlushBase" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.16303, 0, 3.72903)
+mesh = ExtResource("27_d3ny0")
+
+[node name="BeachTerrainSandTransitionGentleSharpFlushCrest" type="MeshInstance3D" parent="Beach Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.8412, 4.76837e-07, 5.95041)
+mesh = ExtResource("28_y6ftv")
+
+[node name="Cave Asset Holder" type="Node" parent="."]
+
+[node name="CaveCliffTerrainEntranceFlatBase" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.510764, 0, -0.71143)
+mesh = ExtResource("29_jmg6y")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveCliffTerrainEntranceRoundBase" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.19323, 4.76837e-07, -0.956139)
+mesh = ExtResource("30_ioxsf")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveCliffTerrainEntranceRoundTop" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.68207, 0, -0.859968)
+mesh = ExtResource("31_xmyei")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveCliffTerrainEntranceRoundTopCenter" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.879077, 0, -2.26479)
+mesh = ExtResource("32_1orn3")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropEntrance1" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.42082, 0, -3.05956)
+mesh = ExtResource("33_6sqfd")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropHangingCables1" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.60343, 0, -1.95375)
+mesh = ExtResource("34_ks4b6")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropHangingCables2" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.33834, 0, -1.86171)
+mesh = ExtResource("35_umfiy")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropHangingCables3" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.95463, 0, -1.81551)
+mesh = ExtResource("36_vn5xp")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropHangingLamp1" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.92059, 0, -1.04964)
+mesh = ExtResource("37_nqflt")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropMinecart1" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.30066, 0, -0.442259)
+mesh = ExtResource("38_yp5rc")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropPickLarge" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.42412, 0, -1.98541)
+mesh = ExtResource("39_unlap")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropPickSmall" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.92399, 0, -3.34285)
+mesh = ExtResource("40_u1ncq")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropRailwayBumpstop" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.25268, 0, -3.49598)
+mesh = ExtResource("41_jbvnh")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropRailwayCurveLarge" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.99786, 0, -5.42262)
+mesh = ExtResource("42_nham2")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropRailwayCurveSmall" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.52141, 0, -5.57395)
+mesh = ExtResource("43_kvsto")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropRailwayHillGentle" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.9934, 0, -5.60316)
+mesh = ExtResource("44_tummh")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropRailwayHillSharp" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.09826, 0, -1.4582)
+mesh = ExtResource("45_dmcdw")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropRailwayIntersection" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.76343, 0, -4.81713)
+mesh = ExtResource("46_nu21i")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropRailwayStraight1" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.92914, 0, -1.53211)
+mesh = ExtResource("47_d0c43")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropRailwayStraight2" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.0661, 0, -3.42696)
+mesh = ExtResource("48_cgaep")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropRailwayStraight3" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.1378, 0, -5.37425)
+mesh = ExtResource("49_s57sc")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropRailwayStraight4" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.04833, 0, -6.54908)
+mesh = ExtResource("50_bq7sc")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropRailwaySwitch" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5787, 0, -8.01954)
+mesh = ExtResource("51_aba5i")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropStalagmiteConnectedBase" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.8918, 0, -1.24268)
+mesh = ExtResource("52_cmim4")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropStalagmiteConnectedMid" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.899236, 0, -4.96924)
+mesh = ExtResource("53_lj2db")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropStalagmiteConnectedTop" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.12149, 0, -6.0276)
+mesh = ExtResource("54_nv6lf")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropStalagmiteNormal" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.49046, 0, -6.40206)
+mesh = ExtResource("55_fpfwo")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropStalagmiteTiny" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.54324, 0, -6.80099)
+mesh = ExtResource("56_l3b6k")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportCeilingBeam1" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.31272, 0, -7.2181)
+mesh = ExtResource("57_47hcj")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportCeilingBeam2" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2808, 0, -8.02646)
+mesh = ExtResource("58_0paoe")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportCeilingBeam3" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.363152, 0, -7.70113)
+mesh = ExtResource("59_25fxc")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportCeilingBeam4" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.31554, 0, -8.14995)
+mesh = ExtResource("60_eluh8")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportCeilingBoards1" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.9864, 0, -8.41562)
+mesh = ExtResource("61_2pgj4")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportCeilingBoards2" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.79531, 0, -9.89776)
+mesh = ExtResource("62_3avqr")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportCeilingBoards3" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.42525, 0, -9.88815)
+mesh = ExtResource("63_fpqnb")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportCeilingBoards4" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.75849, 0, -9.85604)
+mesh = ExtResource("64_l3q1r")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportCornerBrace1" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.44312, 0, -8.97639)
+mesh = ExtResource("65_sas85")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportCornerBrace2" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.37439, 0, -9.92595)
+mesh = ExtResource("66_1qvqk")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportWallBoards1" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.30045, 0, -10.6982)
+mesh = ExtResource("67_ofs67")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportWallBoards2" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.51378, 0, -10.6818)
+mesh = ExtResource("68_rb2nr")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportWallBoards3" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.11629, 0, -10.6097)
+mesh = ExtResource("69_3byv3")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportWallBoards4" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.81258, 0, -8.93238)
+mesh = ExtResource("70_lctgx")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportWallPillar1" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.0415, 0, -8.26571)
+mesh = ExtResource("71_35b7w")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportWallPillar2" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.80977, 0, -8.9579)
+mesh = ExtResource("72_cmaiw")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportWallPillar3" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.73601, 0, -9.63858)
+mesh = ExtResource("73_13e72")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CavePropSupportWallPillar4" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.668, 0, -10.3668)
+mesh = ExtResource("74_p55mi")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerInner1x1Base" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.714, 0, -9.51286)
+mesh = ExtResource("75_llx56")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerInner1x1Mid" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.2458, 0, -9.61061)
+mesh = ExtResource("76_6dwws")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerInner1x1Top" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.1295, -2.38419e-07, -11.1014)
+mesh = ExtResource("77_n6lod")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerInner2x2Base" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.5264, 0, -11.5448)
+mesh = ExtResource("78_xfnec")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerInner2x2Mid" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.04882, 0, -12.3345)
+mesh = ExtResource("79_g23mq")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerInner2x2Top" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.69451, 0, -11.9109)
+mesh = ExtResource("80_vahvm")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerInner3x3Base" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.18186, 0, -12.294)
+mesh = ExtResource("81_mfkes")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerInner3x3Mid" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.1205, 0, -2.46918)
+mesh = ExtResource("82_j2shp")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerInner3x3Top" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.174, 0, -5.95926)
+mesh = ExtResource("83_s1vfd")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerOuter1x1Base" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.3113, 0, -8.70249)
+mesh = ExtResource("84_u0iho")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerOuter1x1Top" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.9113, 0, -8.80773)
+mesh = ExtResource("85_041hj")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerOuter2x2Base" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.659, 0, -10.6862)
+mesh = ExtResource("86_aolnh")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerOuter2x2Mid" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.8578, 0, -3.12547)
+mesh = ExtResource("87_1pbax")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerOuter2x2Top" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.06433, 0, -12.5233)
+mesh = ExtResource("88_0p2hg")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerOuter3x3Mid" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.85258, 0, -14.9193)
+mesh = ExtResource("89_nisos")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainCornerOuter3x3Top" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.589, 0, -15.1653)
+mesh = ExtResource("90_i1d8i")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainFlatRoundInner" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.976, 0, -15.3913)
+mesh = ExtResource("91_5cj2w")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainFlatRoundMid" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.9521, -4.76837e-07, -14.7189)
+mesh = ExtResource("92_5pt5h")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainFlatRoundOuter" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.9125, 0, -16.9662)
+mesh = ExtResource("93_tcuxk")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainFloorNormal" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5483, 0, -16.8588)
+mesh = ExtResource("94_se2ge")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainFloorRaised" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.70226, 0, -17.1731)
+mesh = ExtResource("95_shcdd")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillCornerInner2x2" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.22221, 0, -17.8001)
+mesh = ExtResource("96_vtey1")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillCornerInner4x4" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.597813, 0, -17.4421)
+mesh = ExtResource("97_j7j2s")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillCornerOuter2x2" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.77056, 0, -20.087)
+mesh = ExtResource("98_gnvrx")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillCornerOuter4x4" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.43836, 0, -21.3807)
+mesh = ExtResource("99_bh5jd")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillSideGentle" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.05588, 0, -22.1706)
+mesh = ExtResource("100_myst3")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillSideOverlapSide" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.0709, 0, -20.4514)
+mesh = ExtResource("101_opsbd")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillSideSharp" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.8678, 0, -20.3999)
+mesh = ExtResource("102_akfdh")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillSideShiftGentle" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.4216, 0, -21.786)
+mesh = ExtResource("103_4e51u")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillSideShiftSharp" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.8198, 0, -6.57293)
+mesh = ExtResource("104_evd2d")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillTransitionGentleSharpCentered" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.6859, 0, -11.6586)
+mesh = ExtResource("105_oidvj")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillTransitionGentleSharpFlushBase" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.4437, 0, -17.0188)
+mesh = ExtResource("106_7ficx")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainHillTransitionGentleSharpFlushCrest" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.2708, 0, -20.5863)
+mesh = ExtResource("107_1jrcn")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainSideBase" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.4677, 0, -3.47905)
+mesh = ExtResource("108_r6d5o")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainSideInclineBase" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.6315, 0, -7.38628)
+mesh = ExtResource("109_5sr4i")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainSideInclineTop" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.6184, 0, -10.1)
+mesh = ExtResource("110_fgix5")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainSideMid" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.5461, 0, -12.3087)
+mesh = ExtResource("111_fwp44")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="CaveTerrainSideTop" type="MeshInstance3D" parent="Cave Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.6104, 0, -14.4835)
+mesh = ExtResource("112_t0be5")
+skeleton = NodePath("../../Beach Asset Holder")
+
+[node name="Cliff Asset Holder" type="Node" parent="."]
+
+[node name="CliffPropBridgeRopeEnd" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5176, 0, -1.49195)
+mesh = ExtResource("113_uyt06")
+skeleton = NodePath("../..")
+
+[node name="CliffPropBridgeRopeMiddle" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.61151, 0, -1.05635)
+mesh = ExtResource("114_hwji6")
+skeleton = NodePath("../..")
+
+[node name="CliffPropBridgeRopeMiddleSupport" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.22921, 0, -1.01505)
+mesh = ExtResource("115_8srah")
+skeleton = NodePath("../..")
+
+[node name="CliffPropRock1" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.28691, 0, -0.825063)
+mesh = ExtResource("116_i41oe")
+skeleton = NodePath("../..")
+
+[node name="CliffPropRock2" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.4906, 0, -2.07368)
+mesh = ExtResource("117_ev8ia")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerInner1x1Base" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.81575, 0, -0.87631)
+mesh = ExtResource("118_uk464")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerInner1x1Mid" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.3874, 0, -1.23001)
+mesh = ExtResource("119_5iwvg")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerInner1x1Top" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.04763, 0, -3.34169)
+mesh = ExtResource("120_0jaxa")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerInner2x2Base" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.78297, 0, -3.29423)
+mesh = ExtResource("121_krlrr")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerInner2x2Mid" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.51809, 0, -3.26974)
+mesh = ExtResource("122_8xtbh")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerInner2x2Top" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.2135, 0, -3.32001)
+mesh = ExtResource("123_2pnt5")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerInner3x3Base" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.47408, 0, -6.35119)
+mesh = ExtResource("124_xxr1u")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerInner3x3Mid" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.3798, 0, -6.75461)
+mesh = ExtResource("125_b3krv")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerInner3x3Top" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.8651, 0, -7.05048)
+mesh = ExtResource("126_m2v7w")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerOuter1x1Base" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.9425, 0, -5.80279)
+mesh = ExtResource("127_ciipa")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerOuter1x1Top" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.1864, 0, -5.76286)
+mesh = ExtResource("128_eoaqj")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerOuter2x2Base" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.9429, 0, -1.44923)
+mesh = ExtResource("129_ec67f")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerOuter2x2Mid" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.7975, 4.76837e-07, -2.15272)
+mesh = ExtResource("130_viqwp")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerOuter2x2Top" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.1508, 0, -2.39831)
+mesh = ExtResource("131_wegtb")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerOuter3x3Base" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.3511, 4.76837e-07, -5.54505)
+mesh = ExtResource("132_r2daa")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerOuter3x3Mid" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.0304, 0, -5.6226)
+mesh = ExtResource("133_lbh5q")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainCornerOuter3x3Top" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.2345, 0, -5.34395)
+mesh = ExtResource("134_n4c7f")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainHillBaseTopJoinedGentle" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.36868, 0, -11.912)
+mesh = ExtResource("135_hvtf8")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainHillBaseTopJoinedSharp" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.14966, 0, -10.5402)
+mesh = ExtResource("136_og4na")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainHillGentleBase" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.85998, 0, -12.7707)
+mesh = ExtResource("137_2gslo")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainHillGentleTop" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.91077, 0, -13.0464)
+mesh = ExtResource("138_3su5f")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainHillSharpBase" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.52017, 0, -11.3507)
+mesh = ExtResource("139_1gw2b")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainHillSharpTop" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.90515, 0, -11.4416)
+mesh = ExtResource("140_mxmgn")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainPathStepsCenter" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.0728, 0, -11.0433)
+mesh = ExtResource("141_rletm")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainPathStepsCenterTop" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.5773, -4.76837e-07, -10.8751)
+mesh = ExtResource("142_41qur")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainPathStepsEdge" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.1833, 0, -10.7085)
+mesh = ExtResource("143_skokl")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainPathStepsGrassEdge" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.694, 0, -10.554)
+mesh = ExtResource("144_7rbf5")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainPathStepsGrassEdgeTop" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.2499, 4.76837e-07, -10.3787)
+mesh = ExtResource("145_ljc1p")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainSideBase" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.8572, 0, -8.49637)
+mesh = ExtResource("146_wirdb")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainSideFalloffCenter" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.2189, 4.76837e-07, -8.58442)
+mesh = ExtResource("147_pdcwi")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainSideFalloffEdge" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.3424, -4.76837e-07, -8.66177)
+mesh = ExtResource("148_plptv")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainSideMid" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.26975, 0, -14.444)
+mesh = ExtResource("149_d7ghg")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainSideTop" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.50841, 4.76837e-07, -14.4124)
+mesh = ExtResource("150_2iuoe")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainWaterfallBaseFlat" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.0451, 0, -14.3489)
+mesh = ExtResource("151_k8b3p")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainWaterfallBaseHill" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.8306, 0, -14.3285)
+mesh = ExtResource("152_ti8ht")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainWaterfallMid" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.0195, 0, -13.6672)
+mesh = ExtResource("153_6o8hr")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainWaterfallTop" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.9221, -4.76837e-07, -13.9072)
+mesh = ExtResource("154_85133")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainWaterfallWaterMid" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.1543, 0, -12.587)
+mesh = ExtResource("155_336x2")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainWaterfallWaterMidEdge" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.1321, 0, -12.56)
+mesh = ExtResource("156_k8dix")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainWaterfallWaterTop" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.5551, 4.76837e-07, -12.7765)
+mesh = ExtResource("157_k4hv5")
+skeleton = NodePath("../..")
+
+[node name="CliffTerrainWaterfallWaterTopEdge" type="MeshInstance3D" parent="Cliff Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.361, -4.76837e-07, -12.8843)
+mesh = ExtResource("158_7k3bj")
+skeleton = NodePath("../..")
+
+[node name="Escarpment Asset Holder" type="Node" parent="."]
+
+[node name="EscarpmentTerrainCornerInner1x1Base" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.1523, 0, 2.67871)
+mesh = ExtResource("159_7es6q")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerInner1x1Mid" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.2338, 0, 0.854978)
+mesh = ExtResource("160_swg5n")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerInner1x1Top" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.2271, 4.76837e-07, 4.3369)
+mesh = ExtResource("161_jpk7a")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerInner2x2Base" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.7212, 0, 1.52675)
+mesh = ExtResource("162_42qm7")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerInner2x2Mid" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.9783, 4.76837e-07, 1.56859)
+mesh = ExtResource("163_73r6v")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerInner2x2Top" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.5584, 0, 1.6428)
+mesh = ExtResource("164_ui6fl")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerInner3x3Base" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.9322, 4.76837e-07, 1.44204)
+mesh = ExtResource("165_fmls6")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerInner3x3Mid" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.123, 0, 1.57937)
+mesh = ExtResource("166_imdon")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerInner3x3Top" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.2177, 0, 1.5349)
+mesh = ExtResource("167_iv1oq")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerOuter1x1Base" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.2624, 0, 3.94809)
+mesh = ExtResource("168_bi1c6")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerOuter1x1Top" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.1938, 0, 3.7526)
+mesh = ExtResource("169_d7u68")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerOuter2x2Base" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.9946, -4.76837e-07, 4.54033)
+mesh = ExtResource("170_d4k3l")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerOuter2x2Mid" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.7344, 0, 3.99811)
+mesh = ExtResource("171_3n32g")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerOuter2x2Top" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.6262, 0, 3.9437)
+mesh = ExtResource("172_0tmct")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerOuter3x3Base" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.4513, 0, 4.30408)
+mesh = ExtResource("173_fah0s")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerOuter3x3Mid" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.9402, 0, 4.18378)
+mesh = ExtResource("174_o0cvi")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainCornerOuter3x3Top" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.9231, 4.76837e-07, 4.37811)
+mesh = ExtResource("175_qjlat")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainHillBase" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.0313, 0, 6.46665)
+mesh = ExtResource("176_2qb7y")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainHillCrestTop" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.1912, 4.76837e-07, 6.50245)
+mesh = ExtResource("177_1l2jq")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainHillTop" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.8496, 0, 6.26964)
+mesh = ExtResource("178_2t2vu")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainSideBase" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.0357, 0, 6.70492)
+mesh = ExtResource("179_mkqlq")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainSideFalloffCenter" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.9379, 0, 7.19726)
+mesh = ExtResource("180_0dpqs")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainSideFalloffEdge" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.1249, 0, 7.91651)
+mesh = ExtResource("181_rik8r")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainSideMid" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.5641, 0, 7.26514)
+mesh = ExtResource("182_wjo2j")
+skeleton = NodePath("../..")
+
+[node name="EscarpmentTerrainSideTop" type="MeshInstance3D" parent="Escarpment Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.5885, 0, 7.19056)
+mesh = ExtResource("183_o1vrx")
+skeleton = NodePath("../..")
+
+[node name="Hilly Asset Holder" type="Node" parent="."]
+
+[node name="HillyPropBranch1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.3628, 0, 10.7703)
+mesh = ExtResource("184_ahdf8")
+skeleton = NodePath("../..")
+
+[node name="HillyPropBranch2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.2023, 0, 12.0369)
+mesh = ExtResource("185_8p5hf")
+skeleton = NodePath("../..")
+
+[node name="HillyPropBranch3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.1201, 0, 13.2634)
+mesh = ExtResource("186_rr3j4")
+skeleton = NodePath("../..")
+
+[node name="HillyPropBridgeLogEnd" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.4384, 0, 9.53225)
+mesh = ExtResource("187_spud6")
+
+[node name="HillyPropBridgeLogEndEdge" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.8298, 0, 9.4193)
+mesh = ExtResource("188_ftgr2")
+
+[node name="HillyPropBridgeLogMiddle" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.1155, 0, 9.31273)
+mesh = ExtResource("189_sgkcb")
+
+[node name="HillyPropBridgeLogMiddleEdge" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.5976, 0, 9.25682)
+mesh = ExtResource("190_e420f")
+
+[node name="HillyPropBridgeLogPostSupport" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.7197, 0, 9.33888)
+mesh = ExtResource("191_g44dy")
+
+[node name="HillyPropBridgeLogPostTop" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.7513, 0, 8.52719)
+mesh = ExtResource("192_f3222")
+
+[node name="HillyPropBush1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.2771, 0, 9.35772)
+mesh = ExtResource("193_011cj")
+
+[node name="HillyPropBush2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.5556, 0, 10.5509)
+mesh = ExtResource("194_nel5m")
+
+[node name="HillyPropBush3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.8966, 0, 9.22838)
+mesh = ExtResource("195_sd8jq")
+
+[node name="HillyPropBush4" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.1209, 0, 10.4423)
+mesh = ExtResource("196_qsxg4")
+
+[node name="HillyPropCampCampfire" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.8031, 0, 10.772)
+mesh = ExtResource("197_dyk5x")
+
+[node name="HillyPropCampLeanTo" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4715, 0, 10.8254)
+mesh = ExtResource("198_xt31s")
+
+[node name="HillyPropCampSittingLog" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.8343, 0, 12.4209)
+mesh = ExtResource("199_d7l1k")
+
+[node name="HillyPropCampWoodPile" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.4153, 0, 12.6105)
+mesh = ExtResource("200_nvgvt")
+
+[node name="HillyPropCattail1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.9629, 0, 13.6479)
+mesh = ExtResource("201_n5nw7")
+
+[node name="HillyPropCattail2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.4128, 0, 13.7928)
+mesh = ExtResource("202_stkjq")
+
+[node name="HillyPropFenceBoards1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.8397, -4.76837e-07, 11.0867)
+mesh = ExtResource("203_ik6gl")
+
+[node name="HillyPropFenceBoards2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.5621, 0, 11.8364)
+mesh = ExtResource("204_a6hco")
+
+[node name="HillyPropFenceBoards3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.2644, 0, 12.58)
+mesh = ExtResource("205_5e5le")
+
+[node name="HillyPropFenceBoards4" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.6059, 0, 11.1209)
+mesh = ExtResource("206_ojx7w")
+
+[node name="HillyPropFenceCurve1x1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.7014, 0, 12.7327)
+mesh = ExtResource("207_73gr2")
+
+[node name="HillyPropFenceCurve2x2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.4284, 0, 10.0434)
+mesh = ExtResource("208_keayu")
+
+[node name="HillyPropFenceCurve3x3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.7109, 0, 10.7494)
+mesh = ExtResource("209_ospjb")
+
+[node name="HillyPropFenceGate1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.4692, 0, 12.8798)
+mesh = ExtResource("210_2grtd")
+
+[node name="HillyPropFenceGate2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.1704, 0, 12.8556)
+mesh = ExtResource("211_osnju")
+
+[node name="HillyPropFenceHillGentle" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.8275, 0, 14.1917)
+mesh = ExtResource("212_0e78b")
+
+[node name="HillyPropFenceHillSharp" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.6381, 0, 14.251)
+mesh = ExtResource("213_wx8yd")
+
+[node name="HillyPropFencePost1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.6651, 4.76837e-07, 14.3791)
+mesh = ExtResource("214_66wse")
+
+[node name="HillyPropFencePost2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.5245, 0, 14.4731)
+mesh = ExtResource("215_kvbx1")
+
+[node name="HillyPropFencePost3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.555, 4.76837e-07, 14.4862)
+mesh = ExtResource("216_71xby")
+
+[node name="HillyPropFencePost4" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.2758, 0, 14.364)
+mesh = ExtResource("217_0rfrt")
+
+[node name="HillyPropFlowerDaisy" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.8385, -0.0517941, 12.0654)
+mesh = ExtResource("218_hmmak")
+
+[node name="HillyPropFlowerLilyBlue" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.8246, 0, 11.5012)
+mesh = ExtResource("219_v6g7d")
+
+[node name="HillyPropFlowerLilyPink" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.7998, 0, 10.9702)
+mesh = ExtResource("220_fspnp")
+
+[node name="HillyPropFlowerRose" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.2848, 0, 10.8573)
+mesh = ExtResource("221_58g2v")
+
+[node name="HillyPropFlowerSunflower" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.9022, 0, 10.4372)
+mesh = ExtResource("222_6sfi0")
+
+[node name="HillyPropFlowerTulip" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.3858, 0, 10.3964)
+mesh = ExtResource("223_qyiy1")
+
+[node name="HillyPropGrassClump1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.2008, 4.76837e-07, 13.7335)
+mesh = ExtResource("224_6rijh")
+
+[node name="HillyPropGrassClump2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.0482, -4.76837e-07, 13.8855)
+mesh = ExtResource("225_s7eht")
+
+[node name="HillyPropGrassClump3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.1446, 0, 13.6278)
+mesh = ExtResource("226_bi1j7")
+
+[node name="HillyPropGrassClump4" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.344, 0, 12.8495)
+mesh = ExtResource("227_22xmq")
+
+[node name="HillyPropHollowTrunk" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.52, 4.76837e-07, 14.7508)
+mesh = ExtResource("228_n6ads")
+
+[node name="HillyPropMushroom1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.9003, 0, 12.7934)
+mesh = ExtResource("229_qt0tp")
+
+[node name="HillyPropMushroom2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.6901, 0, 12.8289)
+mesh = ExtResource("230_mic8y")
+
+[node name="HillyPropRock1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.1515, 0, 14.3987)
+mesh = ExtResource("231_xphpg")
+
+[node name="HillyPropRock2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.8496, 0, 13.1079)
+mesh = ExtResource("232_ccbq6")
+
+[node name="HillyPropRock3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.3543, 0, 15.6903)
+mesh = ExtResource("233_8aujx")
+
+[node name="HillyPropRock4" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.40474, -4.76837e-07, 13.9705)
+mesh = ExtResource("234_p8j5y")
+
+[node name="HillyPropRuinsPillar1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.8382, 0, 11.6979)
+mesh = ExtResource("235_2plfn")
+
+[node name="HillyPropRuinsPillar2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.72517, 0, 11.8249)
+mesh = ExtResource("236_j8p65")
+
+[node name="HillyPropRuinsPillar3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.9233, 0, 10.528)
+mesh = ExtResource("237_85nkg")
+
+[node name="HillyPropRuinsPillar4" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.52114, 0, 10.6926)
+mesh = ExtResource("238_8lnnj")
+
+[node name="HillyPropRuinsPillar5" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.2663, 0, 17.6458)
+mesh = ExtResource("239_ifr71")
+
+[node name="HillyPropSteppingStones1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.8871, 0, 16.6647)
+mesh = ExtResource("240_utyx2")
+
+[node name="HillyPropSteppingStones2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -13.6175, 0, 17.8222)
+mesh = ExtResource("241_akmwf")
+
+[node name="HillyPropSteppingStones3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.7439, 0, 16.6771)
+mesh = ExtResource("242_0h18c")
+
+[node name="HillyPropSteppingStones4" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.4629, 0, 17.8512)
+mesh = ExtResource("243_4si4e")
+
+[node name="HillyPropSteppingStones5" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.4478, 0, 16.5274)
+mesh = ExtResource("244_8ism8")
+
+[node name="HillyPropSteppingStones6" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.2579, 0, 17.7612)
+mesh = ExtResource("245_5crm6")
+
+[node name="HillyPropSteppingStones7" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.2669, 0, 16.628)
+mesh = ExtResource("246_mhl4n")
+
+[node name="HillyPropSteppingStones8" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.1417, 0, 17.7154)
+mesh = ExtResource("247_aixcl")
+
+[node name="HillyPropStump" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.3082, 0, 16.1474)
+mesh = ExtResource("248_ovj4o")
+
+[node name="HillyPropTreeCedar1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.6216, 0, 16.1109)
+mesh = ExtResource("249_svlgi")
+
+[node name="HillyPropTreeCedar2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.4594, 0, 17.4601)
+mesh = ExtResource("250_ch0pm")
+
+[node name="HillyPropTreeOak1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.7162, 0, 19.248)
+mesh = ExtResource("251_unec7")
+
+[node name="HillyPropTreeOak2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.077, 0, 17.8597)
+mesh = ExtResource("252_j5t0l")
+
+[node name="HillyPropTreeOak3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.635, 0, 20.1065)
+mesh = ExtResource("253_xp1yj")
+
+[node name="HillyPropTreeOak4" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.0637, 0, 17.1978)
+mesh = ExtResource("254_hbpvx")
+
+[node name="HillyPropTreePine1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.5851, 0, 16.5885)
+mesh = ExtResource("255_1bnet")
+
+[node name="HillyPropTreePine2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.697, -4.76837e-07, 14.1351)
+mesh = ExtResource("256_g1j7x")
+
+[node name="HillyPropTreePine3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.5295, 0, 11.5553)
+mesh = ExtResource("257_aeylw")
+
+[node name="HillyTerrainGrassFloor" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.0684, 0, 9.25462)
+mesh = ExtResource("258_fvtci")
+
+[node name="HillyTerrainHillCornerInner2x2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.5998, 0, 15.681)
+mesh = ExtResource("259_snan4")
+
+[node name="HillyTerrainHillCornerInner3x3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.1479, 0, 11.5853)
+mesh = ExtResource("260_u3f1e")
+
+[node name="HillyTerrainHillCornerInner4x4" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.2782, 0, 13.4051)
+mesh = ExtResource("261_urw10")
+
+[node name="HillyTerrainHillCornerOuter2x2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.3875, 0, 9.54123)
+mesh = ExtResource("262_pmsiu")
+
+[node name="HillyTerrainHillCornerOuter3x3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.0567, 0, 10.3463)
+mesh = ExtResource("263_eqh61")
+
+[node name="HillyTerrainHillCornerOuter4x4" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.3157, 0, 6.32489)
+mesh = ExtResource("264_idq1u")
+
+[node name="HillyTerrainHillSideGentle" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.0821, 0, 3.30633)
+mesh = ExtResource("265_1fhpw")
+
+[node name="HillyTerrainHillSideOverlapSide" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.6847, 0, 3.23743)
+mesh = ExtResource("266_un3ny")
+
+[node name="HillyTerrainHillSideSharp" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -38.4369, 0, 6.77535)
+mesh = ExtResource("267_6oidw")
+
+[node name="HillyTerrainHillSideShiftGentle" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.6284, 0, 10.4)
+mesh = ExtResource("268_avu3v")
+
+[node name="HillyTerrainHillSideShiftSharp" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.7091, 0, 16.2467)
+mesh = ExtResource("269_4vxkj")
+
+[node name="HillyTerrainHillTransitionGentleSharpCentered" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.5998, 0, 1.58359)
+mesh = ExtResource("270_ef3c7")
+
+[node name="HillyTerrainHillTransitionGentleSharpFlushBase" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.0664, 0, 4.80528)
+mesh = ExtResource("271_n8jab")
+
+[node name="HillyTerrainHillTransitionGentleSharpFlushCrest" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.0421, 0, 1.03746)
+mesh = ExtResource("272_o2sbr")
+
+[node name="HillyTerrainPathCenter" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.5873, 0, 11.6335)
+mesh = ExtResource("273_4rj31")
+
+[node name="HillyTerrainPathCornerInner1x1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.5261, 0, 13.0083)
+mesh = ExtResource("274_f3vfp")
+
+[node name="HillyTerrainPathCornerInner2x2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.7946, 0, 15.0362)
+mesh = ExtResource("275_c0x0e")
+
+[node name="HillyTerrainPathCornerInner3x3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -43.2958, -4.76837e-07, 18.2768)
+mesh = ExtResource("276_g68y6")
+
+[node name="HillyTerrainPathCornerOuter1x1" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.7274, 0, 17.0855)
+mesh = ExtResource("277_g05du")
+
+[node name="HillyTerrainPathCornerOuter2x2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45.3629, 0, 15.2976)
+mesh = ExtResource("278_a47gs")
+
+[node name="HillyTerrainPathCornerOuter3x3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.3016, 0, 12.9805)
+mesh = ExtResource("279_x63vu")
+
+[node name="HillyTerrainPathCornerOuter4x4" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -46.3571, 0, 8.21816)
+mesh = ExtResource("280_80cqq")
+
+[node name="HillyTerrainPathCornerY2x2" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.0579, 0, 4.54481)
+mesh = ExtResource("281_ocb5q")
+
+[node name="HillyTerrainPathCornerY3x3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45.14, 0, 3.55794)
+mesh = ExtResource("282_uvvqr")
+
+[node name="HillyTerrainPathEsse2x3" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -47.0609, 0, 3.48227)
+mesh = ExtResource("283_kusdl")
+
+[node name="HillyTerrainPathHillGentlePlainCenter" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -47.5449, 0, 13.5306)
+mesh = ExtResource("284_4kocb")
+
+[node name="HillyTerrainPathHillGentlePlainSide" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.9644, 0, 13.5644)
+mesh = ExtResource("285_dgwnf")
+
+[node name="HillyTerrainPathHillSharpPlainCenter" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.2263, 0, 13.6424)
+mesh = ExtResource("286_g8jgf")
+
+[node name="HillyTerrainPathHillSharpPlainSide" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.5341, 0, 9.73872)
+mesh = ExtResource("287_2l5xn")
+
+[node name="HillyTerrainPathHillSharpStepsCenter" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -49.8499, 0, 9.70964)
+mesh = ExtResource("288_px0mh")
+
+[node name="HillyTerrainPathHillSharpStepsSide" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51.1443, 0, 9.81087)
+mesh = ExtResource("289_a58ro")
+
+[node name="HillyTerrainPathSide" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -49.0046, 0, 7.76668)
+mesh = ExtResource("290_yu0vj")
+
+[node name="HillyTerrainWaterCurve" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -51.4559, 0, 7.59998)
+mesh = ExtResource("291_6img7")
+
+[node name="HillyTerrainWaterFlat" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -49.8675, 4.76837e-07, 5.37789)
+mesh = ExtResource("292_xqbs7")
+
+[node name="HillyTerrainWaterSlope" type="MeshInstance3D" parent="Hilly Asset Holder"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -49.8492, 0, 2.20604)
+mesh = ExtResource("293_ouhfb")
+
+[node name="Misc" type="Node" parent="."]
+
+[node name="Mountain1" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.1002, 0, -6.32767)
+mesh = ExtResource("294_lqtur")
+skeleton = NodePath("../..")
+
+[node name="Mountain2" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.0922, 0, -6.30753)
+mesh = ExtResource("295_afbwp")
+skeleton = NodePath("../..")
+
+[node name="Mountain3" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.0549, 0, -7.64816)
+mesh = ExtResource("296_oq0yk")
+
+[node name="Mountain4" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -36.1607, 9.53674e-07, -13.4238)
+mesh = ExtResource("297_pp0qi")
+
+[node name="SharedPropBoulder1" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.5748, 0, -11.4611)
+mesh = ExtResource("298_ve5sb")
+
+[node name="SharedPropBoulder2" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.9235, 0, -13.2239)
+mesh = ExtResource("299_qkhds")
+
+[node name="SharedPropBoulder3" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.0111, 0, -11.4419)
+mesh = ExtResource("300_lprje")
+
+[node name="SharedPropBoulder4" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.2459, 0, -12.9349)
+mesh = ExtResource("301_jqa8f")
+
+[node name="SharedPropBoulder5" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.239, 0, -11.3148)
+mesh = ExtResource("302_mjb2t")
+
+[node name="SharedPropBoulder6" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -27.632, 0, -12.8328)
+mesh = ExtResource("303_cg18r")
+
+[node name="SharedTerrainDirtGatheredCorner" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.5577, 0, -9.56533)
+mesh = ExtResource("304_i017q")
+
+[node name="SharedTerrainDirtGatheredStraight" type="MeshInstance3D" parent="Misc"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.3671, 0, -11.3059)
+mesh = ExtResource("305_lo88f")
