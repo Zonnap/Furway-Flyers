@@ -4,7 +4,7 @@ extends CharacterBody3D
 @onready var animation_player = $godot_plush_model/AnimationPlayer
 
 const SPEED = 5.0
-const JUMP_VELOCITY = 4.5
+const JUMP_VELOCITY = 8
 
 @export var sens_horizontal = 0.3
 @export var sens_verticle = 0.3
