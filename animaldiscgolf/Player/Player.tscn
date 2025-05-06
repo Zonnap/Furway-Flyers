@@ -1,7 +1,11 @@
-[gd_scene load_steps=22 format=4 uid="uid://dqqoymjbfhm4q"]
+[gd_scene load_steps=26 format=4 uid="uid://dqqoymjbfhm4q"]
 
 [ext_resource type="Script" uid="uid://dj1rpkltvbf62" path="res://Player/player.gd" id="1_3qydi"]
 [ext_resource type="Texture2D" uid="uid://nokej2b650xf" path="res://Player/PlayerAssets/godot_plush_model/godot_plush_albedo.png" id="2_q3lat"]
+[ext_resource type="Script" uid="uid://couw105c3bde4" path="res://addons/godot_state_charts/state_chart.gd" id="3_8g4oa"]
+[ext_resource type="Script" uid="uid://jk2jm1g6q853" path="res://addons/godot_state_charts/compound_state.gd" id="4_6ysni"]
+[ext_resource type="Script" uid="uid://cytafq8i1y8qm" path="res://addons/godot_state_charts/atomic_state.gd" id="5_vlldt"]
+[ext_resource type="Script" uid="uid://cf1nsco3w0mf6" path="res://addons/godot_state_charts/transition.gd" id="6_6ysni"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3iwvh"]
 radius = 0.525251
@@ -1433,7 +1437,7 @@ bones/1/parent = 0
 bones/1/rest = Transform3D(-0.581163, 0.810542, 0.0725986, -0.81377, -0.579407, -0.0454486, 0.00522611, -0.0854917, 0.996325, 0.520039, 0.0227104, -3.15625e-06)
 bones/1/enabled = true
 bones/1/position = Vector3(0.520039, 0.0227104, -3.15625e-06)
-bones/1/rotation = Quaternion(0.000542667, -0.0428615, 0.540813, -0.84005)
+bones/1/rotation = Quaternion(0.000542669, -0.0428615, 0.540813, -0.84005)
 bones/1/scale = Vector3(1, 1, 1)
 bones/2/name = "DEF-forearm.L"
 bones/2/parent = 1
@@ -1454,7 +1458,7 @@ bones/4/parent = 0
 bones/4/rest = Transform3D(-0.581163, -0.810542, -0.0725986, 0.81377, -0.579407, -0.0454486, -0.00522611, -0.0854917, 0.996325, -0.520039, 0.0227104, -3.15625e-06)
 bones/4/enabled = true
 bones/4/position = Vector3(-0.520039, 0.0227104, -3.15625e-06)
-bones/4/rotation = Quaternion(-0.000542672, -0.0428615, 0.540813, 0.84005)
+bones/4/rotation = Quaternion(-0.00054267, -0.0428615, 0.540813, 0.84005)
 bones/4/scale = Vector3(1, 1, 1)
 bones/5/name = "DEF-forearm.R"
 bones/5/parent = 4
@@ -1496,7 +1500,7 @@ bones/10/parent = 9
 bones/10/rest = Transform3D(1, -0.000105277, -0.00016799, 0.000197908, 0.580013, 0.814607, 1.16766e-05, -0.814607, 0.580013, -6.57928e-09, 0.207548, 1.01682e-09)
 bones/10/enabled = true
 bones/10/position = Vector3(-3.4176e-09, 0.207547, -5.71803e-09)
-bones/10/rotation = Quaternion(-0.458251, -5.05235e-05, 8.52508e-05, 0.888823)
+bones/10/rotation = Quaternion(-0.458251, -5.05234e-05, 8.52508e-05, 0.888823)
 bones/10/scale = Vector3(1, 1, 1)
 bones/11/name = "DEF-toe.L"
 bones/11/parent = 10
@@ -1558,3 +1562,63 @@ spring_length = 5.26
 [node name="Camera3D" type="Camera3D" parent="camera_mount/SpringArm3D"]
 transform = Transform3D(1, 0, 0, 0, 0.981202, -0.192984, 0, 0.192984, 0.981202, -0.000954866, 0.00566584, 6.67141)
 fov = 60.0
+
+[node name="StateChart" type="Node" parent="."]
+script = ExtResource("3_8g4oa")
+metadata/_custom_type_script = "uid://couw105c3bde4"
+
+[node name="Root" type="Node" parent="StateChart"]
+script = ExtResource("4_6ysni")
+initial_state = NodePath("Idle")
+
+[node name="Idle" type="Node" parent="StateChart/Root"]
+script = ExtResource("5_vlldt")
+
+[node name="ToRun" type="Node" parent="StateChart/Root/Idle"]
+script = ExtResource("6_6ysni")
+to = NodePath("../../Run")
+event = &"is_running"
+delay_in_seconds = "0.0"
+
+[node name="ToJump" type="Node" parent="StateChart/Root/Idle"]
+script = ExtResource("6_6ysni")
+to = NodePath("../../Jump")
+event = &"is_jumping"
+delay_in_seconds = "0.0"
+
+[node name="Run" type="Node" parent="StateChart/Root"]
+script = ExtResource("5_vlldt")
+
+[node name="ToIdle" type="Node" parent="StateChart/Root/Run"]
+script = ExtResource("6_6ysni")
+to = NodePath("../../Idle")
+event = &"is_idle"
+delay_in_seconds = "0.0"
+
+[node name="ToJump" type="Node" parent="StateChart/Root/Run"]
+script = ExtResource("6_6ysni")
+to = NodePath("../../Jump")
+event = &"is_jumping"
+delay_in_seconds = "0.0"
+
+[node name="Jump" type="Node" parent="StateChart/Root"]
+script = ExtResource("5_vlldt")
+
+[node name="ToIdle" type="Node" parent="StateChart/Root/Jump"]
+script = ExtResource("6_6ysni")
+to = NodePath("../../Idle")
+event = &"is_idle"
+delay_in_seconds = "0.0"
+
+[node name="ToRun" type="Node" parent="StateChart/Root/Jump"]
+script = ExtResource("6_6ysni")
+to = NodePath("../../Run")
+event = &"is_running"
+delay_in_seconds = "0.0"
+
+[node name="fall" type="Node" parent="StateChart/Root"]
+script = ExtResource("5_vlldt")
+
+[connection signal="state_physics_processing" from="StateChart/Root/Idle" to="." method="_on_idle_state_physics_processing"]
+[connection signal="state_physics_processing" from="StateChart/Root/Run" to="." method="_on_run_state_physics_processing"]
+[connection signal="state_entered" from="StateChart/Root/Jump" to="." method="_on_jump_state_entered"]
