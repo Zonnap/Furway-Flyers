@@ -1,4 +1,4 @@
-[gd_scene load_steps=306 format=3 uid="uid://bpmh7aml18omi"]
+[gd_scene load_steps=306 format=3 uid="uid://47wgqgfbfdum"]
 
 [ext_resource type="ArrayMesh" uid="uid://1iawywcdcl3u" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Coconut_1.obj" id="1_bffus"]
 [ext_resource type="ArrayMesh" uid="uid://dxm4oab1ggksa" path="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Beach_Prop_Docks_Corner.obj" id="2_n07sd"]

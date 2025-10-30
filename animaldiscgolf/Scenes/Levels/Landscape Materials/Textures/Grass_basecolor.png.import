@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bf7o7253m2p8s"
-path="res://.godot/imported/Dirt_basecolor.png-4055b29e36d8c6cd6e9b7bfeaff95cbe.ctex"
+uid="uid://ds3cucfw7dk"
+path="res://.godot/imported/Grass_basecolor.png-86d12064cfbab473e2475e0b5965a72d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/Levels/Materials/Textures/Dirt_basecolor.png"
-dest_files=["res://.godot/imported/Dirt_basecolor.png-4055b29e36d8c6cd6e9b7bfeaff95cbe.ctex"]
+source_file="res://Scenes/Levels/Landscape Materials/Textures/Grass_basecolor.png"
+dest_files=["res://.godot/imported/Grass_basecolor.png-86d12064cfbab473e2475e0b5965a72d.ctex"]
 
 [params]
 

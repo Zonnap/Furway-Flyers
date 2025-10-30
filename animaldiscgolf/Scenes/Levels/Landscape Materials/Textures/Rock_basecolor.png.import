@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ds3cucfw7dk"
-path="res://.godot/imported/Grass_basecolor.png-45f5aec523f2dbececfdc0fb533b9848.ctex"
+uid="uid://wdvy0nr4ahhr"
+path="res://.godot/imported/Rock_basecolor.png-f3a306e2e2efd4a37206a67d546002e3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/Levels/Materials/Textures/Grass_basecolor.png"
-dest_files=["res://.godot/imported/Grass_basecolor.png-45f5aec523f2dbececfdc0fb533b9848.ctex"]
+source_file="res://Scenes/Levels/Landscape Materials/Textures/Rock_basecolor.png"
+dest_files=["res://.godot/imported/Rock_basecolor.png-f3a306e2e2efd4a37206a67d546002e3.ctex"]
 
 [params]
 
