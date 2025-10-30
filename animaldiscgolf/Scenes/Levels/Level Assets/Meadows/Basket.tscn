@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyv2ms376ilqd"]
+
+[ext_resource type="ArrayMesh" uid="uid://csl02rfkqmtdc" path="res://Scenes/Levels/Level Assets/Meadows/Resources/Basket.res" id="1_vrw5o"]
+
+[node name="Basket" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.69, 0, 0, 0, 0.69, 0, 0, 0, 0.69, 0, 0.69772613, 0)
+mesh = ExtResource("1_vrw5o")
