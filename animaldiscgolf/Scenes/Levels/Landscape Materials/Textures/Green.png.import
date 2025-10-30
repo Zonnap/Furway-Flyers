@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://05fmkascr22w"
-path="res://.godot/imported/Grey.png-5ea59286c982c0bd6f851568536516b5.ctex"
+uid="uid://i8dphfk5rvq"
+path="res://.godot/imported/Green.png-2d8e78456d7ce845081c9276b4fcd19f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scenes/Levels/Materials/Textures/Grey.png"
-dest_files=["res://.godot/imported/Grey.png-5ea59286c982c0bd6f851568536516b5.ctex"]
+source_file="res://Scenes/Levels/Landscape Materials/Textures/Green.png"
+dest_files=["res://.godot/imported/Green.png-2d8e78456d7ce845081c9276b4fcd19f.ctex"]
 
 [params]
 
