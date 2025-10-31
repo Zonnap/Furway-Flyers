@@ -5,5 +5,5 @@
 [node name="Basket" type="Node3D"]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.69, 0, 0, 0, 0.69, 0, 0, 0, 0.69, 0, 0.69772613, 0)
+transform = Transform3D(0.69, 0, 0, 0, 0.69, 0, 0, 0, 0.69, 0, 0.72694373, 0)
 mesh = ExtResource("1_vrw5o")
