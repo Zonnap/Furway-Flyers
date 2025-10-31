@@ -15,9 +15,9 @@ run/main_scene="uid://02lv0rv1uhiq"
 config/features=PackedStringArray("4.5", "GL Compatibility")
 config/icon="res://icon.svg"
 
-[editor_plugins]
+[audio]
 
-enabled=PackedStringArray("res://addons/godot_state_charts/plugin.cfg", "res://addons/terrain_3d/plugin.cfg")
+buses/default_bus_layout="res://Audio/default_bus_layout.tres"
 
 [input]
 
