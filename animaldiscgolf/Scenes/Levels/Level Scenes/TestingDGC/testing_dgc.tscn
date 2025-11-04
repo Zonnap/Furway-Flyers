@@ -2,10 +2,9 @@
 
 [ext_resource type="Texture2D" uid="uid://ds3cucfw7dk" path="res://Scenes/Levels/Landscape Materials/Textures/Grass_basecolor.png" id="1_xngji"]
 [ext_resource type="PackedScene" uid="uid://cyv2ms376ilqd" path="res://Scenes/Levels/Level Assets/Meadows/Basket.tscn" id="4_3d7o7"]
-[ext_resource type="PackedScene" uid="uid://dqqoymjbfhm4q" path="res://Scenes/Player/Player.tscn" id="4_646q3"]
-[ext_resource type="PackedScene" uid="uid://cic2ao1sd426e" path="res://Scenes/Disks/DriverDisk.tscn" id="5_646q3"]
-[ext_resource type="PackedScene" uid="uid://25libf7cc36x" path="res://Scenes/Disks/MidrangeDisk.tscn" id="6_iuvmg"]
-[ext_resource type="PackedScene" uid="uid://cq0o8n4dw8l4t" path="res://Scenes/Disks/PutterDisk.tscn" id="7_o36tl"]
+[ext_resource type="PackedScene" uid="uid://cic2ao1sd426e" path="res://Scenes/Discs/DriverDisc.tscn" id="5_646q3"]
+[ext_resource type="PackedScene" uid="uid://25libf7cc36x" path="res://Scenes/Discs/MidRangeDisc.tscn" id="6_iuvmg"]
+[ext_resource type="PackedScene" uid="uid://cq0o8n4dw8l4t" path="res://Scenes/Discs/PutterDisc.tscn" id="7_o36tl"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ubouw"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -22,6 +21,9 @@ tonemap_mode = 2
 [sub_resource type="ORMMaterial3D" id="ORMMaterial3D_646q3"]
 albedo_texture = ExtResource("1_xngji")
 uv1_scale = Vector3(-28.925, -28.925, -28.925)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mfpm0"]
+size = Vector3(268.47168, 8.727661, 261.20374)
 
 [sub_resource type="ORMMaterial3D" id="ORMMaterial3D_76n82"]
 albedo_color = Color(0.29219037, 0.2921899, 0.2921901, 1)
@@ -45,10 +47,11 @@ use_collision = true
 size = Vector3(263.37738, 0.3659668, 260.16083)
 material = SubResource("ORMMaterial3D_646q3")
 
-[node name="Player" type="Node" parent="."]
+[node name="StaticBody3D" type="StaticBody3D" parent="World"]
 
-[node name="CharacterBody3D" parent="Player" instance=ExtResource("4_646q3")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00359917, 1.1452999, -0.00466108)
+[node name="CollisionShape3D" type="CollisionShape3D" parent="World/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.331543, -4.34447, 0.9904175)
+shape = SubResource("BoxShape3D_mfpm0")
 
 [node name="Basket" type="Node" parent="."]
 
@@ -83,3 +86,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.258407, 1.0155995, -2.92423
 
 [node name="PutterDisk" parent="Other" instance=ExtResource("7_o36tl")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.914611, 1.0155995, -1.6068422)
+
+[node name="PlayerSpawn" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6436555, 0)

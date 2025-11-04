@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://25libf7cc36x"]
-
-[ext_resource type="ArrayMesh" uid="uid://elrn2m43m0py" path="res://Scenes/Disks/Resources/MidrangeDisk.res" id="1_2l1vm"]
-
-[node name="Midrange" type="Node3D"]
-
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-mesh = ExtResource("1_2l1vm")

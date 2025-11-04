@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://25libf7cc36x"]
+
+[ext_resource type="ArrayMesh" uid="uid://elrn2m43m0py" path="res://Scenes/Discs/Resources/MidrangeDisk.res" id="1_2l1vm"]
+[ext_resource type="Script" uid="uid://dca7mullih4vt" path="res://Scripts/Disc/MidRangeDisc.gd" id="1_ag20u"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_plp3o"]
+height = 0.051940918
+radius = 0.2866211
+
+[node name="Midrange" type="RigidBody3D"]
+continuous_cd = true
+script = ExtResource("1_ag20u")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("1_2l1vm")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.010191679, 0.0065656006, 0)
+shape = SubResource("CylinderShape3D_plp3o")

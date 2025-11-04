@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cic2ao1sd426e"]
 
-[ext_resource type="ArrayMesh" uid="uid://dngs63kf5al5t" path="res://Scenes/Disks/Resources/DriverDisk.res" id="1_civky"]
+[ext_resource type="ArrayMesh" uid="uid://dngs63kf5al5t" path="res://Scenes/Discs/Resources/DriverDisk.res" id="1_civky"]
 
 [node name="DriverDisk" type="Node3D"]
 

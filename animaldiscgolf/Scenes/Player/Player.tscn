@@ -1,11 +1,9 @@
-[gd_scene load_steps=26 format=4 uid="uid://dqqoymjbfhm4q"]
+[gd_scene load_steps=23 format=4 uid="uid://dqqoymjbfhm4q"]
 
 [ext_resource type="Script" uid="uid://eb0716mj11gs" path="res://Scenes/Player/player.gd" id="1_3qydi"]
 [ext_resource type="Texture2D" uid="uid://nokej2b650xf" path="res://Scenes/Player/PlayerAssets/godot_plush_model/godot_plush_albedo.png" id="2_q3lat"]
 [ext_resource type="AudioStream" uid="uid://pkticu4tpnxk" path="res://Scenes/Player/PlayerAssets/Audio/ESM_Builder_Game_Footstep_Run_Grass_4.wav" id="3_s1rgi"]
 [ext_resource type="AudioStream" uid="uid://dm02gafon16yf" path="res://Scenes/Player/PlayerAssets/Audio/ESM_Builder_Game_Footstep_Walk_Grass_5.wav" id="4_j23h2"]
-[ext_resource type="Script" uid="uid://d1scc538oqpiy" path="res://Scripts/camera_mount.gd" id="5_jmcll"]
-[ext_resource type="Script" uid="uid://by5pnko2i5xe2" path="res://Scenes/Player/camera_follow.gd" id="6_4wape"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3iwvh"]
 radius = 0.525251
@@ -1438,11 +1436,9 @@ _data = {
 &"wave": SubResource("Animation_06fow")
 }
 
-[sub_resource type="SphereShape3D" id="SphereShape3D_4wape"]
-radius = 0.3
-
 [node name="CharacterBody3D" type="CharacterBody3D"]
 script = ExtResource("1_3qydi")
+throw_offset = Vector3(0, 0.5, 1)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.00811768, 0)
@@ -1582,23 +1578,6 @@ libraries = {
 }
 autoplay = "idle"
 playback_default_blend_time = 0.2
-
-[node name="SpringArmPivot" type="Node3D" parent="."]
-script = ExtResource("5_jmcll")
-min_vert_angle = -1.39626
-max_vert_angle = 0.349066
-
-[node name="SpringArm3D" type="SpringArm3D" parent="SpringArmPivot"]
-shape = SubResource("SphereShape3D_4wape")
-spring_length = 6.0
-
-[node name="SpringPosition" type="Node3D" parent="SpringArmPivot/SpringArm3D"]
-
-[node name="Camera3D" type="Camera3D" parent="SpringArmPivot" node_paths=PackedStringArray("spring_arm")]
-fov = 60.0
-script = ExtResource("6_4wape")
-spring_arm = NodePath("../SpringArm3D/SpringPosition")
-lerp_power = 6.0
 
 [node name="StateMachine(not in use yet)" type="Node" parent="."]
 

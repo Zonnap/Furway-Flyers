@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://cq0o8n4dw8l4t"]
 
-[ext_resource type="ArrayMesh" uid="uid://o3m6i8hxpavf" path="res://Scenes/Disks/Resources/PutterDisk.res" id="1_vcqhn"]
+[ext_resource type="ArrayMesh" uid="uid://o3m6i8hxpavf" path="res://Scenes/Discs/Resources/PutterDisk.res" id="1_vcqhn"]
 
 [node name="PutterDisk" type="Node3D"]
 

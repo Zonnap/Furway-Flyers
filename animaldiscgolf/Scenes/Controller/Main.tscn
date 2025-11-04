@@ -1,0 +1,22 @@
+[gd_scene load_steps=6 format=3 uid="uid://b6anfa6bh0v0m"]
+
+[ext_resource type="PackedScene" uid="uid://dqqoymjbfhm4q" path="res://Scenes/Player/Player.tscn" id="1_7ktrc"]
+[ext_resource type="Script" uid="uid://fxc8hlayd8g8" path="res://Scripts/Systems/Main.gd" id="1_ns8wu"]
+[ext_resource type="PackedScene" uid="uid://02lv0rv1uhiq" path="res://Scenes/Levels/Level Scenes/TestingDGC/testing_dgc.tscn" id="2_iutfi"]
+[ext_resource type="PackedScene" uid="uid://c00kf68dd81p" path="res://Scenes/CameraRig/CameraRig.tscn" id="2_ns8wu"]
+[ext_resource type="PackedScene" uid="uid://25libf7cc36x" path="res://Scenes/Discs/MidRangeDisc.tscn" id="3_tp5mf"]
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_ns8wu")
+
+[node name="Player" parent="." node_paths=PackedStringArray("camera_pivot") instance=ExtResource("1_7ktrc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.17830336, 1.0917866, 1.3071352)
+camera_pivot = NodePath("../CameraRig")
+disc_scene = ExtResource("3_tp5mf")
+
+[node name="TestingDGC" parent="." instance=ExtResource("2_iutfi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58601177, 1.1920929e-07, 2.928408)
+
+[node name="CameraRig" parent="." node_paths=PackedStringArray("target") instance=ExtResource("2_ns8wu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.178, 1, 3)
+target = NodePath("../Player")
