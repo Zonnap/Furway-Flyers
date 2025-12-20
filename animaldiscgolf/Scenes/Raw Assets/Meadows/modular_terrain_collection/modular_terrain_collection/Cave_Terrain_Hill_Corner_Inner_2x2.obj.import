@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://7lga366xng8d"
+path="res://.godot/imported/Cave_Terrain_Hill_Corner_Inner_2x2.obj-33f5b1447b21cf894e8ede871001b69f.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cave_Terrain_Hill_Corner_Inner_2x2.obj-33f5b1447b21cf894e8ede871001b69f.mesh"]
+
+source_file="res://Scenes/Raw Assets/Meadows/modular_terrain_collection/modular_terrain_collection/Cave_Terrain_Hill_Corner_Inner_2x2.obj"
+dest_files=["res://.godot/imported/Cave_Terrain_Hill_Corner_Inner_2x2.obj-33f5b1447b21cf894e8ede871001b69f.mesh", "res://.godot/imported/Cave_Terrain_Hill_Corner_Inner_2x2.obj-33f5b1447b21cf894e8ede871001b69f.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
