@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://bco6s5ehmf1bu"]
+
+[ext_resource type="PackedScene" uid="uid://b8tuuum8qble0" path="res://Scenes/Raw Assets/Meadows/Kaykit/Grass_2_D_Singlesided_Color1.gltf" id="1_inccv"]
+
+[node name="Grass_2_D_Singlesided_Color12" instance=ExtResource("1_inccv")]
