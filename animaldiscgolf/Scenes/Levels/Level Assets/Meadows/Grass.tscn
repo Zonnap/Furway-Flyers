@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://q1pky1uuxtgs"]
-
-[ext_resource type="ArrayMesh" uid="uid://dpp7gepyuwjku" path="res://Scenes/Levels/Level Assets/Meadows/Resources/GrassBlade.res" id="1_i0p2f"]
-
-[node name="grass" type="Node3D"]
-
-[node name="Grass" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.96180207, 0)
-mesh = ExtResource("1_i0p2f")

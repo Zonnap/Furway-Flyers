@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://ca62xl7sr1q5w"]
+
+[ext_resource type="AudioStream" uid="uid://b7ehupob64qhc" path="res://Audio/SFX/Wind/Wind_Raw.wav" id="1_f5wdp"]
+
+[node name="Wind" type="AudioStreamPlayer3D"]
+stream = ExtResource("1_f5wdp")
+volume_db = 80.0
+unit_size = 50.0
+max_db = 6.0
+autoplay = true
+bus = &"SFX"
