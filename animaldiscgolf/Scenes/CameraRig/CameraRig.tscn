@@ -4,5 +4,10 @@
 
 [node name="CameraRig" type="Node3D"]
 script = ExtResource("1_adrvf")
+distance = 10.0
 
-[node name="FollowCamera" type="Camera3D" parent="."]
+[node name="SpringArm3D" type="SpringArm3D" parent="."]
+spring_length = 6.0
+margin = 0.3
+
+[node name="FollowCamera" type="Camera3D" parent="SpringArm3D"]

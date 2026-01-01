@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="DiscData" load_steps=3 format=3 uid="uid://cd3t2ic0ld6cv"]
+
+[ext_resource type="Script" uid="uid://daj27i0ri4j7b" path="res://Scripts/Disc/DiscData.gd" id="1_k4kd1"]
+[ext_resource type="ArrayMesh" uid="uid://elrn2m43m0py" path="res://Scenes/Discs/Resources/MidrangeDisk.res" id="1_ntfni"]
+
+[resource]
+script = ExtResource("1_k4kd1")
+disc_name = "Glizzy"
+base_impulse = 8.0
+mesh = ExtResource("1_ntfni")
+metadata/_custom_type_script = "uid://daj27i0ri4j7b"

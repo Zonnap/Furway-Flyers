@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://bdb5yqtlx0i6e"
+path="res://.godot/imported/Cliff_Terrain_Waterfall_Water_Mid.obj-09ef50c61a9f2ee9382b1ca8b16d01db.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Cliff_Terrain_Waterfall_Water_Mid.obj-09ef50c61a9f2ee9382b1ca8b16d01db.mesh"]
+
+source_file="res://Scenes/Levels/Level Assets/modular_terrain_collection/modular_terrain_collection/Cliff_Terrain_Waterfall_Water_Mid.obj"
+dest_files=["res://.godot/imported/Cliff_Terrain_Waterfall_Water_Mid.obj-09ef50c61a9f2ee9382b1ca8b16d01db.mesh", "res://.godot/imported/Cliff_Terrain_Waterfall_Water_Mid.obj-09ef50c61a9f2ee9382b1ca8b16d01db.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

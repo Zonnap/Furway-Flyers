@@ -1,10 +1,12 @@
-[gd_scene load_steps=6 format=3 uid="uid://b6anfa6bh0v0m"]
+[gd_scene load_steps=8 format=3 uid="uid://b6anfa6bh0v0m"]
 
 [ext_resource type="PackedScene" uid="uid://dqqoymjbfhm4q" path="res://Scenes/Player/Player.tscn" id="1_7ktrc"]
 [ext_resource type="Script" uid="uid://fxc8hlayd8g8" path="res://Scripts/Systems/Main.gd" id="1_ns8wu"]
 [ext_resource type="PackedScene" uid="uid://02lv0rv1uhiq" path="res://Scenes/Levels/Level Scenes/TestingDGC/testing_dgc.tscn" id="2_iutfi"]
 [ext_resource type="PackedScene" uid="uid://c00kf68dd81p" path="res://Scenes/CameraRig/CameraRig.tscn" id="2_ns8wu"]
-[ext_resource type="PackedScene" uid="uid://25libf7cc36x" path="res://Scenes/Discs/MidRangeDisc.tscn" id="3_tp5mf"]
+[ext_resource type="PackedScene" uid="uid://25libf7cc36x" path="res://Scenes/Discs/MidRangeDisc_Data.tscn" id="3_tp5mf"]
+[ext_resource type="PackedScene" uid="uid://cgbp6j0lttcv2" path="res://Scenes/Discs/HeldVisual.tscn" id="4_vy1dl"]
+[ext_resource type="Resource" uid="uid://cd3t2ic0ld6cv" path="res://Scenes/Discs/Disc Data/Starter_Midrange.tres" id="5_33jxl"]
 
 [node name="Main" type="Node3D"]
 script = ExtResource("1_ns8wu")
@@ -13,10 +15,17 @@ script = ExtResource("1_ns8wu")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.17830336, 1.0917866, 1.3071352)
 camera_pivot = NodePath("../CameraRig")
 disc_scene = ExtResource("3_tp5mf")
+held_visual_scene = ExtResource("4_vy1dl")
+selected_disc = ExtResource("5_33jxl")
 
 [node name="TestingDGC" parent="." instance=ExtResource("2_iutfi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.58601177, 1.1920929e-07, 2.928408)
 
-[node name="CameraRig" parent="." node_paths=PackedStringArray("target") instance=ExtResource("2_ns8wu")]
+[node name="CameraRig" parent="." node_paths=PackedStringArray("target", "aim_focus") instance=ExtResource("2_ns8wu")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.178, 1, 3)
 target = NodePath("../Player")
+distance = 5.0
+aim_distance = 2.0
+aim_focus = NodePath("../Player/godot_plush_model/DiscSocket")
+
+[editable path="Player"]
