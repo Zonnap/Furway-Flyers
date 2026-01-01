@@ -1,15 +1,14 @@
-[gd_scene load_steps=6 format=3 uid="uid://od1ynof5rtgi"]
-
-[ext_resource type="Script" uid="uid://chrp05yn5g4ks" path="res://Scripts/Weather/wind.gd" id="1_kde1b"]
+[gd_scene load_steps=5 format=3 uid="uid://t0g5ntergnk7"]
 
 [sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_dmqph"]
-emission_shape_offset = Vector3(0, 0, -51.345)
 emission_shape = 3
-emission_box_extents = Vector3(32.445, 15.47, 1)
-direction = Vector3(0, 0, 1)
+emission_box_extents = Vector3(5, 1, 5)
+direction = Vector3(0, 1, 0)
 spread = 0.0
 initial_velocity_min = 5.0
 initial_velocity_max = 5.0
+orbit_velocity_min = -2.0
+orbit_velocity_max = 2.0000002
 gravity = Vector3(0, 0, 0)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kde1b"]
@@ -24,12 +23,12 @@ material = SubResource("StandardMaterial3D_kde1b")
 
 [sub_resource type="Skin" id="Skin_kde1b"]
 
-[node name="Wind" type="GPUParticles3D"]
+[node name="Updraft" type="GPUParticles3D"]
 cast_shadow = 0
-amount = 30
+amount = 60
 lifetime = 25.0
+visibility_aabb = AABB(-4, -4, -4, 8, 100, 8)
 trail_lifetime = 1.0
 process_material = SubResource("ParticleProcessMaterial_dmqph")
 draw_pass_1 = SubResource("QuadMesh_gpnai")
 draw_skin = SubResource("Skin_kde1b")
-script = ExtResource("1_kde1b")
